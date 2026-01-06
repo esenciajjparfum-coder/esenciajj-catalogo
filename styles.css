@@ -38,7 +38,7 @@
     url("images/banner-esenciajj.png");
 
   background-size: cover;
-  background-position: 30% center;
+  background-position: 65% center;
   background-repeat: no-repeat;
 }
 
@@ -193,6 +193,11 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+@media (max-width: 600px){
+  .hero{
+    background-position: 70% 65%;
+  }
 }
 
 
