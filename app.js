@@ -6,7 +6,7 @@ const money = (n) => `$${n.toFixed(2)}`;
 const waLink = (msg) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
 
 // Precios por presentación
-const PRICE_BY_ML = { 30: 10, 50: 15, 100: 20 };
+const PRICE_BY_ML = { 30: 10, 50: 16, 100: 20 };
 
 // Textos por categoría (modal 1)
 const CATEGORY_INFO = {
@@ -557,3 +557,4 @@ document.addEventListener("keydown", (e)=>{
   updateCartCount();
   renderCartUI();
 })();
+
