@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ESENCIA JJ | Catálogo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <header class="topbar">
+    <div class="topbar__left">
+      <div class="logoMark">ESENCIA JJ</div>
+      <div class="logoSub">Perfume–Arte y Pasión</div>
+    </div>
+
+    <!-- 🔎 BUSCADOR GLOBAL -->
+    <div class="gSearch">
+      <span class="gSearch__icon" aria-hidden="true">🔎</span>
+      <input id="globalSearch" class="gSearch__input" type="search"
+             placeholder="Buscar perfume… (Ej: Yara Candy)" autocomplete="off" />
+      <button id="globalClear" class="gSearch__clear" title="Limpiar" aria-label="Limpiar">✕</button>
+    </div>
+
+    <button class="cartBtn" id="openCartBtn" aria-label="Abrir tienda">
+      🛍️ Tienda <span class="cartCount" id="cartCount">0</span>
+    </button>
+  </header>
+
+  <main class="container">
+
+    <!-- HERO (opcional) -->
+    <section class="hero" style="--hero-bg:url('images/hero/banner-esenciajj.png');">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <div class="badge">✨ Fragancias • Hogar • Detalles aromáticos</div>
+        <h1 class="hero__title">ESENCIA JJ</h1>
+        <p class="hero__tagline">El aroma que define tu estilo.</p>
+
+        <div class="hero__sub">
+          <span>📦 Presentaciones: 30ml • 50ml • 100ml</span>
+          <span>🚚 Entregas/Envíos según zona</span>
+          <span>💬 Asesoría para elegir tu aroma</span>
+		  <!-- 🔍 BUSCADOR -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ RESULTADOS BÚSQUEDA GLOBAL -->
+    <section class="results" id="globalResults" aria-label="Resultados de búsqueda" hidden>
+      <div class="resultsTop">
+        <div class="resultsTitle">Resultados</div>
+        <div class="resultsMeta" id="globalResultCount">Mostrando 0 resultados</div>
+      </div>
+
+      <div class="resultsGrid" id="globalResultGrid"></div>
+
+      <div class="resultsEmpty" id="globalNoResults" hidden>
+        No se encontraron perfumes con ese nombre.
+      </div>
+    </section>
+
+    <!-- CATEGORIES GRID -->
+    <section class="catGrid" aria-label="Categorías">
+      <!-- Dama -->
+      <article class="catCard" style="--bg:url('images/categorias/dama.png');">
+        <div class="catCard__overlay"></div>
+        <div class="catCard__content">
+          <h2>DAMA</h2>
+          <p>Fragancias florales, avainilladas, dulces, atalcadas y frutales, diseñadas para resaltar la feminidad y elegancia.</p>
+          <button class="btn primary openCategory" data-category="dama">Ver catálogo</button>
+        </div>
+      </article>
+
+      <!-- Caballero -->
+      <article class="catCard" style="--bg:url('images/categorias/caballero.png');">
+        <div class="catCard__overlay"></div>
+        <div class="catCard__content">
+          <h2>CABALLERO</h2>
+          <p>Aromas amaderados, especiados, orientales y frescos, ideales para transmitir carácter y seguridad.</p>
+          <button class="btn primary openCategory" data-category="caballero">Ver catálogo</button>
+        </div>
+      </article>
+
+      <!-- Nicho -->
+      <article class="catCard" style="--bg:url('images/categorias/nicho.png');">
+        <div class="catCard__overlay"></div>
+        <div class="catCard__content">
+          <h2>NICHO</h2>
+          <p>Fragancias exclusivas, intensas y poco comunes, creadas para quienes buscan distinción y originalidad.</p>
+          <button class="btn primary openCategory" data-category="nicho">Ver catálogo</button>
+        </div>
+      </article>
+
+      <!-- Unisex -->
+      <article class="catCard" style="--bg:url('images/categorias/unisex.png');">
+        <div class="catCard__overlay"></div>
+        <div class="catCard__content">
+          <h2>UNISEX</h2>
+          <p>Composiciones equilibradas y modernas, perfectas para cualquier estilo y personalidad.</p>
+          <button class="btn primary openCategory" data-category="unisex">Ver catálogo</button>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      © <span id="year"></span> ESENCIA JJ • Catálogo digital
+    </footer>
+  </main>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- MODAL: CATALOGO POR CATEGORIA -->
+  <div class="modal" id="categoryModal" aria-hidden="true">
+    <div class="modal__box">
+      <div class="modal__top">
+        <div>
+          <div class="modal__kicker">Catálogo</div>
+          <h2 class="modal__title" id="catTitle">DAMA</h2>
+          <p class="modal__desc" id="catDesc"></p>
+
+          <!-- 🔎 BUSCADOR INTERNO -->
+          <div class="mSearch">
+            <span class="mSearch__icon" aria-hidden="true">🔎</span>
+            <input id="catSearch" class="mSearch__input" type="search" placeholder="Buscar en esta categoría…" autocomplete="off" />
+            <button id="catSearchClear" class="mSearch__clear" title="Limpiar" aria-label="Limpiar">✕</button>
+            <span class="mSearch__count" id="catResultCount">Mostrando 0</span>
+          </div>
+        </div>
+
+        <button class="btn" id="closeCategoryModal">Cerrar ✕</button>
+      </div>
+
+      <div class="modal__body">
+        <div class="perfGrid" id="perfGrid"></div>
+        <div class="resultsEmpty insideModal" id="catNoResults" hidden>
+          No hay perfumes que coincidan con tu búsqueda.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: DETALLE PERFUME -->
+  <div class="modal" id="perfumeModal" aria-hidden="true">
+    <div class="modal__box modal__box--narrow">
+      <div class="modal__top">
+        <div>
+          <div class="modal__kicker" id="pCatKicker">Perfume</div>
+          <h2 class="modal__title" id="pTitle">Nombre</h2>
+          <p class="modal__desc" id="pFullDesc"></p>
+        </div>
+        <button class="btn" id="closePerfumeModal">Cerrar ✕</button>
+      </div>
+
+      <div class="modal__body">
+        <div class="pLayout">
+          <div class="pMedia">
+            <img id="pImg" class="pImg" src="" alt="Perfume">
+          </div>
+
+          <div class="pInfo">
+            <div class="pBlock">
+              <h3>Notas olfativas</h3>
+              <div class="chipsRow" id="pNotes"></div>
+            </div>
+
+            <div class="pBlock">
+              <h3>Recomendaciones de uso</h3>
+              <ul class="pList" id="pRecs"></ul>
+            </div>
+
+            <div class="pBlock">
+              <h3>Selecciona presentación</h3>
+              <div class="sizeRow" id="sizeRow">
+                <button class="sizeBtn" data-ml="30">30 ml</button>
+                <button class="sizeBtn" data-ml="50">50 ml</button>
+                <button class="sizeBtn" data-ml="100">100 ml</button>
+              </div>
+
+              <div class="priceRow">
+                <div class="priceTag">Precio: <b id="pPrice">—</b></div>
+                <button class="btn primary" id="addToCartBtn" disabled>Agregar al carrito</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: CARRITO / TIENDA -->
+  <div class="modal" id="cartModal" aria-hidden="true">
+    <div class="modal__box modal__box--cart">
+      <div class="modal__top">
+        <div>
+          <div class="modal__kicker">Tienda</div>
+          <h2 class="modal__title">Carrito</h2>
+          <p class="modal__desc">Revisa tu pedido, ajusta cantidades y finaliza por WhatsApp.</p>
+        </div>
+        <button class="btn" id="closeCartModal">Cerrar ✕</button>
+      </div>
+
+      <div class="modal__body">
+        <div class="cartWrap">
+          <div class="cartList" id="cartList"></div>
+
+          <aside class="cartSummary">
+            <div class="sumLine">
+              <span>Total</span>
+              <b id="cartTotal">$0.00</b>
+            </div>
+            <button class="btn primary" id="checkoutBtn" disabled>Realizar compra (WhatsApp)</button>
+            <div class="sumHint">El mensaje incluirá productos, ml, cantidad y total.</div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

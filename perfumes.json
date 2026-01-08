@@ -1,0 +1,22 @@
+[
+  {
+    "id": "yara-candy",
+    "category": "dama",
+    "name": "Yara Candy",
+    "shortDesc": "Dulce, avainillado y frutal con toque floral blanco.",
+    "fullDesc": "Dulce y envolvente: avainillado con un toque afrutado, corazón floral blanco, sensación atalcada y fondo amaderado.",
+    "image": "images/perfumes/yara-candy.jpeg",
+    "notes": ["Avainillado", "Afrutado", "Floral blanco", "Atalcado", "Amaderado"],
+    "recs": ["Clima: Verano / Templado", "Uso: Diario / Citas", "Ocasión: Casual / Salidas"]
+  },
+  {
+    "id": "ambar-canela",
+    "category": "unisex",
+    "name": "Ámbar Canela",
+    "shortDesc": "Cálido especiado con ámbar, vainilla y canela.",
+    "fullDesc": "Fondo ámbar con vainilla, un acorde cálido especiado con canela y dulzor elegante. Perfecto para noches.",
+    "image": "images/perfumes/ambar-canela.jpg",
+    "notes": ["Ámbar", "Vainilla", "Canela", "Dulce", "Cálido especiado"],
+    "recs": ["Clima: Invierno / Noches frías", "Uso: Noche / Eventos", "Ocasión: Citas / Salidas"]
+  }
+]
