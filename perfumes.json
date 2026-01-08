@@ -10,13 +10,34 @@
     "recs": ["Clima: Verano / Templado", "Uso: Diario / Citas", "Ocasión: Casual / Salidas"]
   },
   {
-    "id": "ambar-canela",
+    "id": "ck-one",
     "category": "unisex",
-    "name": "Ámbar Canela",
+    "name": "CK ONE",
+    "shortDesc": "Una salida cítrica y verde aporta frescura natural, equilibrada por un fondo amaderado y atalcado.",
+    "fullDesc": "Una apertura cítrica y verde aporta frescura luminosa y natural, ell floral blanco, con un fondo amaderado y atalcado, deja una estela limpia y sofisticada.",
+    "image": "images/perfumes/ck.one.png",
+    "notes": ["Cítrico", "Herbal", "Amaderado", "Atalcado", "Floral Blanco"],
+    "recs": ["Clima: cálidos y templados", "Uso: diario y casual", "Ocasión: Versátil para múltiples ocasiones"]
+  }
+  {
+    "id": "9-pm",
+    "category": "CABALLERO",
+    "name": "9 PM",
     "shortDesc": "Cálido especiado con ámbar, vainilla y canela.",
-    "fullDesc": "Fondo ámbar con vainilla, un acorde cálido especiado con canela y dulzor elegante. Perfecto para noches.",
-    "image": "images/perfumes/ambar-canela.jpg",
-    "notes": ["Ámbar", "Vainilla", "Canela", "Dulce", "Cálido especiado"],
-    "recs": ["Clima: Invierno / Noches frías", "Uso: Noche / Eventos", "Ocasión: Citas / Salidas"]
+    "fullDesc": "Una apertura suave y reconfortante de vainilla cremosa se funde con la calidez del ámbar,la canela especiada y dulce envuelve la piel con una estela íntima, profunda y cautivadora",
+    "image": "images/perfumes/9-pm.png",
+    "notes": ["Vainilla", "Ámbar", "Cálido especiado", "Canela", "Dulce"],
+    "recs": ["Clima: Verano", "Uso: Diario", "Ocasión: Casual"]
+  }
+  {
+    "id": "abu-dhabi",
+    "category": "NICHO",
+    "name": "Abu Dhabi",
+    "shortDesc": "Un acorde ambarado y almizclado se fusiona con la suavidad avainillada y la elegancia del floral blanco.",
+    "fullDesc": "Una fragancia cálida y sedosa donde el ámbar y el almizcle abrazan la piel, mientras la vainilla y el floral blanco dejan una estela delicada y sofisticada.",
+    "image": "images/perfumes/abu-dhabi.png",
+    "notes": ["Ámbar", "Almizclado", "Vainilla", "Floral Blanco", ],
+    "recs": ["Clima: Invierno y Noches frías", "Uso: Eventos Nocturnos", "Ocasión: Salidas Especiales"]
   }
 ]
+
