@@ -8,38 +8,39 @@
     "image": "images/perfumes/yara-candy.jpeg",
     "notes": ["Avainillado", "Afrutado", "Floral blanco", "Atalcado", "Amaderado"],
     "recs": ["Clima: Verano / Templado", "Uso: Diario / Citas", "Ocasión: Casual / Salidas"]
-  }
+  },
   {
     "id": "ck-one",
     "category": "unisex",
     "name": "CK ONE",
     "shortDesc": "Una salida cítrica y verde aporta frescura natural, equilibrada por un fondo amaderado y atalcado.",
-    "fullDesc": "Una apertura cítrica y verde aporta frescura luminosa y natural, ell floral blanco, con un fondo amaderado y atalcado, deja una estela limpia y sofisticada.",
-    "image": "images/perfumes/ck.one.png",
-    "notes": ["Cítrico", "Herbal", "Amaderado", "Atalcado", "Floral Blanco"],
-    "recs": ["Clima: cálidos y templados", "Uso: diario y casual", "Ocasión: Versátil para múltiples ocasiones"]
-  }
+    "fullDesc": "Una apertura cítrica y verde aporta frescura luminosa y natural, el floral blanco con un fondo amaderado y atalcado deja una estela limpia y sofisticada.",
+    "image": "images/perfumes/ck-one.png",
+    "notes": ["Cítrico", "Verde", "Amaderado", "Atalcado", "Floral blanco"],
+    "recs": ["Clima: Cálido / Templado", "Uso: Diario / Casual", "Ocasión: Versátil para múltiples ocasiones"]
+  },
   {
     "id": "9-pm",
-    "category": "CABALLERO",
+    "category": "caballero",
     "name": "9 PM",
-    "shortDesc": "Cálido especiado con ámbar, vainilla y canela.",
-    "fullDesc": "Una apertura suave y reconfortante de vainilla cremosa se funde con la calidez del ámbar,la canela especiada y dulce envuelve la piel con una estela íntima, profunda y cautivadora",
+    "shortDesc": "Vainilla y ámbar con un toque cálido especiado de canela, dulce y envolvente.",
+    "fullDesc": "Una apertura suave y reconfortante de vainilla cremosa se funde con la calidez del ámbar; la canela especiada y dulce envuelve la piel con una estela íntima, profunda y cautivadora.",
     "image": "images/perfumes/9-pm.png",
     "notes": ["Vainilla", "Ámbar", "Cálido especiado", "Canela", "Dulce"],
-    "recs": ["Clima: Verano", "Uso: Diario", "Ocasión: Casual"]
-  }
+    "recs": ["Clima: Noches / Templado", "Uso: Salidas / Eventos", "Ocasión: Citas / Casual nocturno"]
+  },
   {
     "id": "abu-dhabi",
-    "category": "NICHO",
+    "category": "nicho",
     "name": "Abu Dhabi",
-    "shortDesc": "Un acorde ambarado y almizclado se fusiona con la suavidad avainillada y la elegancia del floral blanco.",
+    "shortDesc": "Un acorde ambarado y almizclado con suavidad avainillada y floral blanco elegante.",
     "fullDesc": "Una fragancia cálida y sedosa donde el ámbar y el almizcle abrazan la piel, mientras la vainilla y el floral blanco dejan una estela delicada y sofisticada.",
     "image": "images/perfumes/abu-dhabi.png",
-    "notes": ["Ámbar", "Almizclado", "Vainilla", "Floral Blanco"],
-    "recs": ["Clima: Invierno y Noches frías", "Uso: Eventos Nocturnos", "Ocasión: Salidas Especiales"]
+    "notes": ["Ámbar", "Almizclado", "Avainillado", "Floral blanco"],
+    "recs": ["Clima: Invierno / Noches frías", "Uso: Eventos nocturnos", "Ocasión: Salidas especiales"]
   }
 ]
+
 
 
 
