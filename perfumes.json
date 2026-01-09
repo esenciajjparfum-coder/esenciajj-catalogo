@@ -8,7 +8,7 @@
     "image": "images/perfumes/yara-candy.jpeg",
     "notes": ["Avainillado", "Afrutado", "Floral blanco", "Atalcado", "Amaderado"],
     "recs": ["Clima: Verano / Templado", "Uso: Diario / Citas", "Ocasión: Casual / Salidas"]
-  },
+  }
   {
     "id": "ck-one",
     "category": "unisex",
@@ -40,4 +40,5 @@
     "recs": ["Clima: Invierno y Noches frías", "Uso: Eventos Nocturnos", "Ocasión: Salidas Especiales"]
   }
 ]
+
 
