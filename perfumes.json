@@ -36,9 +36,10 @@
     "shortDesc": "Un acorde ambarado y almizclado se fusiona con la suavidad avainillada y la elegancia del floral blanco.",
     "fullDesc": "Una fragancia cálida y sedosa donde el ámbar y el almizcle abrazan la piel, mientras la vainilla y el floral blanco dejan una estela delicada y sofisticada.",
     "image": "images/perfumes/abu-dhabi.png",
-    "notes": ["Ámbar", "Almizclado", "Vainilla", "Floral Blanco", ],
+    "notes": ["Ámbar", "Almizclado", "Vainilla", "Floral Blanco"],
     "recs": ["Clima: Invierno y Noches frías", "Uso: Eventos Nocturnos", "Ocasión: Salidas Especiales"]
   }
 ]
+
 
 
