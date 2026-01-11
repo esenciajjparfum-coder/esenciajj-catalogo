@@ -664,6 +664,40 @@ body{
   margin: 12px -16px -16px; /* pega al borde del modal__body */
   border-radius: 0 0 16px 16px;
 }
+/* ===== FIX: Botón Cerrar visible en el 1er modal (móvil) ===== */
+@media (max-width: 600px){
+
+  /* Header del modal: que no se desborde */
+  .modal__top{
+    padding: 10px 10px;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  /* El contenido (texto) debe poder encogerse */
+  .modal__top > div{
+    min-width: 0;               /* CLAVE para que el texto no empuje al botón */
+  }
+
+  /* El botón NO debe encogerse ni salirse */
+  .modal__top .btn{
+    flex-shrink: 0;             /* CLAVE */
+    margin-left: auto;          /* se pega a la derecha */
+    max-width: 120px;
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  /* Baja un poco tamaños para que todo entre sin cortar */
+  .modal__title{ font-size: 18px; }
+  .modal__desc{ font-size: 13px; line-height: 1.25; }
+
+  /* El buscador interno que no quede gigante */
+  .mSearch{
+    max-width: 100%;
+  }
+}
+
 
 
 
