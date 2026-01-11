@@ -331,10 +331,13 @@ body{
 .modal__title{ margin:4px 0 0; font-size:22px; }
 .modal__desc{ margin:8px 0 0; opacity:.85; max-width: 70ch; line-height:1.35; }
 
-.modal__body {
-  max-height: calc(100vh - 120px);
+.modal__body{
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   padding: 16px;
+  padding-bottom: 110px;
 }
 
 /* INTERNAL SEARCH (Category Modal) */
@@ -600,22 +603,34 @@ body{
     min-height: 38px;
   }
 /* =========================
-   FIX MÓVIL: Modal 2 (detalle)
-   Que se vea PRECIO + AGREGAR
+   FIX DEFINITIVO: Scroll completo en modales (MÓVIL)
+   + barra sticky de Precio/Agregar visible
    ========================= */
 
-/* 1) Asegura que el body del modal tenga espacio real para scrollear */
+/* El modal ocupa alto real del dispositivo (dvh corrige móviles) */
+.modal{
+  padding: 12px;
+}
+
+.modal__box{
+  height: 100dvh;           /* clave en Android */
+  max-height: 100dvh;       /* evita recortes */
+  display: flex;
+  flex-direction: column;
+}
+
+/* IMPORTANTE: permite que el body "encoga" y scrollee dentro del flex */
 .modal__body{
+  flex: 1;
+  min-height: 0;            /* CLAVE para que el scroll funcione en flex */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+
+  /* espacio extra para que el sticky no tape el final */
+  padding-bottom: 110px;
 }
 
-/* 2) En el modal de detalle, permite que el contenido use el alto completo */
-.modal__box--narrow{
-  max-height: 100vh;
-}
-
-/* 3) La fila de precio + botón se queda pegada abajo (sticky) */
+/* Barra sticky: Precio + Agregar */
 .priceRow{
   position: sticky;
   bottom: 0;
@@ -630,31 +645,28 @@ body{
   border-radius: 0 0 16px 16px;
 }
 
-/* 4) Dale más tamaño al botón en móvil */
+/* Botón grande en móvil */
 @media (max-width: 600px){
-  .priceRow{
-    padding: 12px;
-    gap: 10px;
-  }
   #addToCartBtn{
     width: 100%;
     padding: 14px 16px;
     border-radius: 16px;
   }
-  .priceTag{
-    font-size: 14px;
-  }
 
-  /* 5) La imagen no debe comerse toda la pantalla */
+  /* La imagen no debe comerse toda la pantalla */
   .pImg{
-    max-height: 320px;
+    max-height: 300px;
+    object-fit: cover;
   }
 
-  /* 6) Menos espacio arriba para que quepa todo */
+  /* Reduce un poco el header para ganar espacio */
   .modal__top{
     padding: 12px;
   }
 }
+
+
+
 
 
 
