@@ -599,7 +599,63 @@ body{
     padding: 6px 10px;
     min-height: 38px;
   }
+/* =========================
+   FIX MÓVIL: Modal 2 (detalle)
+   Que se vea PRECIO + AGREGAR
+   ========================= */
+
+/* 1) Asegura que el body del modal tenga espacio real para scrollear */
+.modal__body{
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
+
+/* 2) En el modal de detalle, permite que el contenido use el alto completo */
+.modal__box--narrow{
+  max-height: 100vh;
+}
+
+/* 3) La fila de precio + botón se queda pegada abajo (sticky) */
+.priceRow{
+  position: sticky;
+  bottom: 0;
+  z-index: 20;
+
+  background: rgba(10,10,10,.96);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(215,181,109,.16);
+
+  padding: 12px;
+  margin: 12px -12px -12px; /* pega al borde del bloque */
+  border-radius: 0 0 16px 16px;
+}
+
+/* 4) Dale más tamaño al botón en móvil */
+@media (max-width: 600px){
+  .priceRow{
+    padding: 12px;
+    gap: 10px;
+  }
+  #addToCartBtn{
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 16px;
+  }
+  .priceTag{
+    font-size: 14px;
+  }
+
+  /* 5) La imagen no debe comerse toda la pantalla */
+  .pImg{
+    max-height: 320px;
+  }
+
+  /* 6) Menos espacio arriba para que quepa todo */
+  .modal__top{
+    padding: 12px;
+  }
+}
+
 
 
 
