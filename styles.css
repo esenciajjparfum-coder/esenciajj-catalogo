@@ -587,24 +587,44 @@ body{
 
 /* ✅ Mobile: modal full + cerrar siempre visible sin zoom */
 @media (max-width: 600px) {
-  .modal{ padding: 0; }
+  .modal { padding: 0; }
+
   .modal__box {
     height: 100vh;
     border-radius: 0;
   }
 
-  .modal__top{
-    padding: 12px 12px;
+  .modal__top {
+    padding: 12px;
+    gap: 10px;
+    align-items: flex-start;
   }
 
+  /* Botón cerrar siempre visible y con buen tamaño táctil */
   .modal__top .btn {
     font-size: 12px;
-    padding: 6px 10px;
-    min-height: 38px;
+    padding: 8px 12px;
+    min-height: 40px;
+    border-radius: 999px;
   }
+
+  /* La imagen no debe comerse toda la pantalla */
+  .pImg {
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  /* Botón Agregar grande en móvil */
+  #addToCartBtn {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 16px;
+  }
+}
+
 /* =========================
-   FIX DEFINITIVO: Scroll completo en modales (MÓVIL)
-   + barra sticky de Precio/Agregar visible
+   FIX DEFINITIVO: Scroll completo en modales (TODOS)
+   + Barra sticky de Precio/Agregar visible
    ========================= */
 
 /* El modal ocupa alto real del dispositivo (dvh corrige móviles) */
@@ -627,10 +647,10 @@ body{
   -webkit-overflow-scrolling: touch;
 
   /* espacio extra para que el sticky no tape el final */
-  padding-bottom: 110px;
+  padding-bottom: 120px;
 }
 
-/* Barra sticky: Precio + Agregar */
+/* Barra sticky: Precio + Agregar (solo en el modal 2) */
 .priceRow{
   position: sticky;
   bottom: 0;
@@ -641,29 +661,11 @@ body{
   border-top: 1px solid rgba(215,181,109,.16);
 
   padding: 12px;
-  margin: 12px -12px -12px; /* pega al borde del bloque */
+  margin: 12px -16px -16px; /* pega al borde del modal__body */
   border-radius: 0 0 16px 16px;
 }
 
-/* Botón grande en móvil */
-@media (max-width: 600px){
-  #addToCartBtn{
-    width: 100%;
-    padding: 14px 16px;
-    border-radius: 16px;
-  }
 
-  /* La imagen no debe comerse toda la pantalla */
-  .pImg{
-    max-height: 300px;
-    object-fit: cover;
-  }
-
-  /* Reduce un poco el header para ganar espacio */
-  .modal__top{
-    padding: 12px;
-  }
-}
 
 
 
