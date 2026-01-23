@@ -39,7 +39,44 @@
     "notes": ["Ámbar", "Almizclado", "Avainillado", "Floral blanco"],
     "recs": ["Clima: Invierno / Noches frías", "Uso: Eventos nocturnos", "Ocasión: Salidas especiales"]
   }
+  "id": "king-of-seduction",
+    "category": "caballero",
+    "name": "King of Seduction",
+    "shortDesc": "Aromático y cítrico con un toque afrutado, notas marinas frescas y un fondo amaderado suave.",
+    "fullDesc": "Notas cítricas y aromáticas con un toque afrutado refrescante, acompañadas de un acorde marino limpio y un fondo amaderado suave.",
+    "image": "images/perfumes/king-of-seduction.png",
+    "notes": [
+      "Aromático",
+      "Cítrico",
+      "Afrutados",
+      "Marino",
+      "Amaderado."
+    ],
+    "recs": [
+      "Clima: Cálido o templado (primavera/verano).",
+      "Uso: Diario o casual (trabajo, gym, salida de día).",
+      "Ocasión: Reuniones informales, paseo, cita relajada."
+    ]
+  },
+  {
+    "id": "blue-seduction",
+    "category": "caballero",
+    "name": "Blue Seduction",
+    "shortDesc": "Cítricos frescos combinados con notas acuáticas, marinas, aromáticas y afrutadas.",
+    "fullDesc": "Cítricos frescos y notas afrutadas abren con una sensación limpia y vibrante con acordes acuáticos y marinos se combinan con matices aromáticos y refrescantes.",
+    "image": "images/perfumes/blue-seduction.png",
+    "notes": [
+      "Aromático",
+      "Afrutado",
+      "Marino",
+      "Acuático",
+      "Cítrico"
+    ],
+    "recs": [
+      "Clima: Ideal para primavera y verano. Uso: Perfecto para salidas informales. Ocasión: Para reuniones casuales"]
+  }
 ]
+
 
 
 
