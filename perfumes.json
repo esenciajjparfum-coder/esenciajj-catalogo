@@ -38,7 +38,8 @@
     "image": "images/perfumes/abu-dhabi.png",
     "notes": ["Ámbar", "Almizclado", "Avainillado", "Floral blanco"],
     "recs": ["Clima: Invierno / Noches frías", "Uso: Eventos nocturnos", "Ocasión: Salidas especiales"]
-  }
+  },
+  {
   "id": "king-of-seduction",
     "category": "caballero",
     "name": "King of Seduction",
@@ -55,8 +56,7 @@
     "recs": [
       "Clima: Cálido o templado (primavera/verano).",
       "Uso: Diario o casual (trabajo, gym, salida de día).",
-      "Ocasión: Reuniones informales, paseo, cita relajada."
-    ]
+      "Ocasión: Reuniones informales, paseo, cita relajada."]
   },
   {
     "id": "blue-seduction",
@@ -76,6 +76,7 @@
       "Clima: Ideal para primavera y verano. Uso: Perfecto para salidas informales. Ocasión: Para reuniones casuales"]
   }
 ]
+
 
 
 
