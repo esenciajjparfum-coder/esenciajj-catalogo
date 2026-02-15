@@ -20,16 +20,6 @@
     "recs": ["Clima: Cálido / Templado", "Uso: Diario / Casual", "Ocasión: Versátil para múltiples ocasiones"]
   },
   {
-    "id": "9-pm",
-    "category": "caballero",
-    "name": "9 PM",
-    "shortDesc": "Vainilla y ámbar con un toque cálido especiado de canela, dulce y envolvente.",
-    "fullDesc": "Una apertura suave y reconfortante de vainilla cremosa se funde con la calidez del ámbar; la canela especiada y dulce envuelve la piel con una estela íntima, profunda y cautivadora.",
-    "image": "images/perfumes/9-pm.png",
-    "notes": ["Vainilla", "Ámbar", "Cálido especiado", "Canela", "Dulce"],
-    "recs": ["Clima: Noches / Templado", "Uso: Salidas / Eventos", "Ocasión: Citas / Casual nocturno"]
-  },
-  {
     "id": "abu-dhabi",
     "category": "nicho",
     "name": "Abu Dhabi",
@@ -40,7 +30,1377 @@
     "recs": ["Clima: Invierno / Noches frías", "Uso: Eventos nocturnos", "Ocasión: Salidas especiales"]
   },
   {
-  "id": "king-of-seduction",
+    "id": "9-pm",
+    "category": "caballero",
+    "name": "9 PM",
+    "shortDesc": "Vainilla y ámbar con un toque cálido especiado de canela, dulce y envolvente.",
+    "fullDesc": "Una apertura suave y reconfortante de vainilla cremosa se funde con la calidez del ámbar; la canela especiada y dulce envuelve la piel con una estela íntima, profunda y cautivadora.",
+    "image": "images/perfumes/9-pm.png",
+    "notes": ["Vainilla", "Ámbar", "Cálido especiado", "Canela", "Dulce"],
+    "recs": ["Clima: Noches / Templado", "Uso: Salidas / Eventos", "Ocasión: Citas / Casual nocturno"]
+  },
+{
+    "id": "valentino-born-in-roma-intense",
+    "category": "caballero",
+    "name": "Valentino Uomo Born In Roma Intense",
+    "shortDesc": "Aromático y herbal, con lavanda elegante, matices amaderados y terrosos, y un fondo dulce atalcado refinado.",
+    "fullDesc": "Una fragancia aromática y herbal, donde la lavanda aporta frescura elegante, acompañada de matices amaderados y terrosos, y un fondo dulce atalcado que brinda suavidad y distinción.",
+    "image": "images/perfumes/valentino-born-in-roma-intense.png",
+    "notes": [
+      "Lavanda",
+      "Aromático",
+      "Amaderado",
+      "Atalcado",
+      "Terrosos",
+      "Dulce",
+      "Herbal"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas nocturnas, eventos elegantes, reuniones sociales formales y salidas especiales."]
+  },
+  {
+    "id": "valentino-born-in-roma",
+    "category": "caballero",
+    "name": "VALENTINO BORN  IN ROMA",
+    "shortDesc": "Mineral y ozónico, con frescura acuática y un fondo amaderado aromático elegante.",
+    "fullDesc": "Una fragancia mineral y ozónica, con frescura acuática y matices aromáticos, sostenida por un fondo amaderado limpio, elegante y de carácter contemporáneo.",
+    "image": "images/perfumes/valentino-born-in-roma.png",
+    "notes": [
+      "Mineral",
+      "Amaderado",
+      "Ozónico",
+      "Aromático",
+      "Acuático"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas nocturnas, eventos elegantes, reuniones sociales y salidas especiales."]
+  },
+  {
+    "id": "phantom-intense-edp",
+    "category": "caballero",
+    "name": "PHANTOM INTENSE EDP",
+    "shortDesc": "Aromático y herbal, con lavanda fresca, cítricos suaves y un fondo avainillado amaderado con matiz atalcado elegante.",
+    "fullDesc": "Una fragancia aromática y herbal, donde la lavanda y los cítricos aportan frescura, sostenidos por un fondo avainillado y amaderado con un delicado acabado atalcado que añade elegancia y suavidad refinada.",
+    "image": "images/perfumes/phantom-intense-edp.png",
+    "notes": [
+      "Aromático",
+      "Lavanda",
+      "Avainillado",
+      "Cítrico",
+      "Atalcado",
+      "Amaderado",
+      "Herbal"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas nocturnas, eventos elegantes, reuniones sociales formales y salidas especiales."
+    ]
+  },
+  {
+    "id": "phantom-parfum",
+    "category": "caballero",
+    "name": "PHANTOM PARFUM",
+    "shortDesc": "Aromático y avainillado, con cítricos luminosos, lavanda elegante y un cálido especiado envolvente.",
+    "fullDesc": "Una fragancia aromática y avainillada, donde los cítricos aportan frescura, la lavanda añade elegancia y el cálido especiado envuelve con carácter y profundidad refinada.",
+    "image": "images/perfumes/phantom-parfum.png",
+    "notes": [
+      "Aromático",
+      "Avainillado",
+      "Cálido Especiado",
+      "Cítrico",
+      "Lavanda"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas nocturnas, eventos elegantes, reuniones sociales y salidas especiales."
+    ]
+  },
+  {
+    "id": "phantom--legion",
+    "category": "caballero",
+    "name": "PHANTOM LEGION",
+    "shortDesc": "Cítrico y aromático, con matices terrosos de pachulí sobre un fondo amaderado elegante.",
+    "fullDesc": "Una fragancia cítrica y aromática, donde los matices terrosos de pachulí aportan carácter, sostenidos por un fondo amaderado profundo, elegante y equilibrado.",
+    "image": "images/perfumes/phantom- legion.png",
+    "notes": [
+      "Cítrico",
+      "Terrosos",
+      "Amaderado",
+      "Aromático",
+      "Pachulí"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales, uso diario y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "phantom",
+    "category": "caballero",
+    "name": "PHANTOM",
+    "shortDesc": "Cítrico y aromático, con lavanda elegante, matiz terroso y un fondo avainillado equilibrado.",
+    "fullDesc": "Una fragancia cítrica y aromática, donde la lavanda aporta elegancia, el matiz terroso añade profundidad y el fondo avainillado equilibra con suavidad y carácter refinado.",
+    "image": "images/perfumes/phantom.png",
+    "notes": [
+      "Cítrico",
+      "Avainillado",
+      "Lavanda",
+      "Terroso",
+      "Aromático"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales, uso diario y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "one-million-royal",
+    "category": "caballero",
+    "name": "ONE MILLION ROYAL",
+    "shortDesc": "Cálido y aromático, con matices cítricos y un fondo ámbar amaderado elegante y envolvente.",
+    "fullDesc": "Una fragancia cálida y aromática, con cítricos sutiles que aportan luminosidad, equilibrados por un fondo ámbar amaderado profundo, elegante y bien estructurado.",
+    "image": "images/perfumes/one-million-royal.png",
+    "notes": [
+      "Cálido Especiado",
+      "Aromático",
+      "Ámbar",
+      "Amaderado",
+      "Cítrico"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas nocturnas, eventos elegantes, fiestas exclusivas y reuniones sociales formales."
+    ]
+  },
+  {
+    "id": "nitro-blue",
+    "category": "caballero",
+    "name": "NITRO BLUE",
+    "shortDesc": "Dulce y cálido especiado, con un fondo ámbar amaderado profundo y elegante.",
+    "fullDesc": "Una fragancia dulce y cálida especiada, con un fondo ámbar amaderado que aporta profundidad, carácter y una elegancia envolvente.",
+    "image": "images/perfumes/nitro-blue.png",
+    "notes": [
+      "Dulce",
+      "Cálido Especiado",
+      "Ámbar",
+      "Amaderado"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales, uso diario y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "nitro-green",
+    "category": "caballero",
+    "name": "NITRO GREEN",
+    "shortDesc": "Ámbar y amaderado, con lavanda elegante y un fondo avainillado cálido y refinado.",
+    "fullDesc": "Una fragancia ámbar y amaderada, donde la lavanda aporta elegancia aromática y el fondo avainillado envuelve con calidez, profundidad y distinción.",
+    "image": "images/perfumes/nitro-green.png",
+    "notes": [
+      "Ámbar",
+      "Amaderado",
+      "Avainillado",
+      "Lavanda"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales, uso diario y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "nitro-red",
+    "category": "caballero",
+    "name": "NITRO RED",
+    "shortDesc": "Amaderado y marino, con frescura acuática, matices afrutados y un fondo ámbar elegante.",
+    "fullDesc": "Una fragancia amaderada y marina, con frescura acuática y matices afrutados, sostenida por un fondo ámbar que aporta calidez, equilibrio y elegancia duradera.",
+    "image": "images/perfumes/nitro-red.png",
+    "notes": [
+      "Amaderado",
+      "Marino",
+      "Acuático",
+      "Afrutados",
+      "Ámbar"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales, uso diario y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "one-million-prive",
+    "category": "caballero",
+    "name": "ONE MILLION PRIVE",
+    "shortDesc": "Cálido y especiado, con tabaco dulce, canela envolvente y un fondo ámbar profundo y elegante.",
+    "fullDesc": "Una fragancia cálida y especiada, donde el tabaco dulce y la canela aportan carácter, sostenidos por un fondo ámbar profundo, envolvente y elegante.",
+    "image": "images/perfumes/one-million-prive.png",
+    "notes": [
+      "Cálido Especiado",
+      "Dulce",
+      "Tabaco",
+      "Ámbar",
+      "Canela"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas nocturnas, eventos elegantes, reuniones sociales y salidas especiales."
+    ]
+  },
+  {
+    "id": "one-million-elixir",
+    "category": "caballero",
+    "name": "ONE MILLION ELIXIR",
+    "shortDesc": "Avainillado y afrutado, con rosas dulces y un carácter aromático elegante y envolvente.",
+    "fullDesc": "ahora dame una descripción de 1 línea y media, un poco detallada. de los aromas anteriores.",
+    "image": "images/perfumes/one-million-elixir.png",
+    "notes": [
+      "Avainillado",
+      "Afrutado",
+      "Rosas",
+      "Dulce",
+      "Aromático"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas nocturnas, fiestas elegantes, eventos especiales y reuniones sociales."
+    ]
+  },
+  {
+    "id": "million-gold",
+    "category": "caballero",
+    "name": "MILLION GOLD",
+    "shortDesc": "Amaderado y cálido especiado, con cítricos sutiles y un acabado atalcado elegante.",
+    "fullDesc": "Una fragancia amaderada y cálida especiada, con cítricos suaves que aportan frescura inicial y un acabado atalcado que deja una sensación elegante y refinada.",
+    "image": "images/perfumes/million-gold.png",
+    "notes": [
+      "Cálido Especiado",
+      "Cítrico",
+      "Canela",
+      "Amaderado",
+      "Ámbar"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas, fiestas nocturnas, eventos sociales elegantes y salidas especiales."
+    ]
+  },
+  {
+    "id": "one-million",
+    "category": "caballero",
+    "name": "ONE MILLION",
+    "shortDesc": "Cálido y especiado, con cítricos brillantes, canela envolvente y un fondo amaderado ámbar elegante.",
+    "fullDesc": "Una fragancia cálida y especiada, donde los cítricos aportan luminosidad, la canela añade carácter y el fondo amaderado ámbar envuelve con profundidad y elegancia.",
+    "image": "images/perfumes/one-million.png",
+    "notes": [
+      "Cálido Especiado",
+      "Cítrico",
+      "Canela",
+      "Amaderado",
+      "Ámbar"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas, fiestas nocturnas, reuniones sociales y eventos especiales."
+    ]
+  },
+  {
+    "id": "one-million-lucky",
+    "category": "caballero",
+    "name": "ONE MILLION LUCKY",
+    "shortDesc": "Amaderado y dulce, con notas de nueces, matices afrutados y un fondo amielado envolvente.",
+    "fullDesc": "Una fragancia amaderada y dulce, con notas de nueces y matices afrutados, envuelta en un fondo amielado que aporta calidez, profundidad y elegancia.",
+    "image": "images/perfumes/one-million-lucky.png",
+    "notes": [
+      "Amaderado",
+      "Dulce",
+      "Nueces",
+      "Afrutado",
+      "Amielado"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas, fiestas nocturnas, reuniones sociales y eventos especiales."
+    ]
+  },
+  {
+    "id": "black-xs-aprodisiaque",
+    "category": "caballero",
+    "name": "BLACK XS  APRODISIAQUE",
+    "shortDesc": "Dulce y amielado, con canela especiada, cuero intenso y una calidez envolvente.",
+    "fullDesc": "Una fragancia dulce y amielada, con un acorde cálido especiado de canela, matices de cuero que aportan carácter y una sensación envolvente, intensa y elegante.",
+    "image": "images/perfumes/black-xs-aprodisiaque.png",
+    "notes": [
+      "Dulce",
+      "Amielado",
+      "Cálido Especiado",
+      "Cuero",
+      "Canela"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas nocturnas, salidas especiales, fiestas elegantes y reuniones sociales."
+    ]
+  },
+  {
+    "id": "invictus-platinum",
+    "category": "caballero",
+    "name": "INVICTUS PLATINUM",
+    "shortDesc": "Aromático y verde, con un frescor especiado que se apoya en un fondo amaderado elegante.",
+    "fullDesc": "Una fragancia aromática y verde, con un frescor especiado que aporta vitalidad, sostenida por un fondo amaderado limpio, elegante y equilibrado.",
+    "image": "images/perfumes/invictus-platinum.png",
+    "notes": [
+      "Aromático",
+      "Fresco Especiado",
+      "Verde",
+      "Amaderado"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales, uso diario y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "invictus-parfum",
+    "category": "caballero",
+    "name": "INVICTUS PARFUM",
+    "shortDesc": "Aromático y marino, con un fondo almizclado suave y un acabado atalcado elegante.",
+    "fullDesc": "Una fragancia aromática y marina, con un almizcle suave que aporta limpieza y elegancia, acompañada de un acabado atalcado que deja una sensación refinada y delicada.",
+    "image": "images/perfumes/invictus-parfum.png",
+    "notes": [
+      "Aromático",
+      "Almizclado",
+      "Marino",
+      "Suave",
+      "Atalcado"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales, uso diario y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "invictus-victory-elixir",
+    "category": "caballero",
+    "name": "INVICTUS VICTORY ELIXIR",
+    "shortDesc": "Avainillado y dulce, con un carácter aromático especiado y un fondo ámbar cálido y elegante.",
+    "fullDesc": "Una fragancia avainillada y dulce, con un acorde aromático cálido especiado que aporta carácter, sostenido por un fondo ámbar envolvente y elegante.",
+    "image": "images/perfumes/invictus-victory-elixir.png",
+    "notes": [
+      "Avainillado",
+      "Cálido Especiado",
+      "Ámbar",
+      "Dulce",
+      "Aromático"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas nocturnas, fiestas elegantes, eventos especiales y reuniones sociales formales."
+    ]
+  },
+  {
+    "id": "invictus-onyx",
+    "category": "caballero",
+    "name": "INVICTUS ONYX",
+    "shortDesc": "Cítrico y marino, con un carácter aromático sobre un fondo amaderado y ámbar elegante.",
+    "fullDesc": "Una fragancia cítrica y marina, con matices aromáticos que aportan frescura y dinamismo, sostenida por un fondo amaderado y ámbar que añade elegancia y profundidad.",
+    "image": "images/perfumes/invictus-onyx.png",
+    "notes": [
+      "Cítrico",
+      "Amaderado",
+      "Marino",
+      "Aromático",
+      "Ámbar"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales, uso diario y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "invictus-legend",
+    "category": "caballero",
+    "name": "INVICTUS LEGEND",
+    "shortDesc": "Marino y aromático, con un frescor especiado y matiz salado sobre un fondo ámbar elegante.",
+    "fullDesc": "Una fragancia marina y aromática, con un frescor especiado y salado que aporta carácter y energía, sostenido por un fondo ámbar elegante y envolvente.",
+    "image": "images/perfumes/invictus-legend.png",
+    "notes": [
+      "Marino",
+      "Aromático",
+      "Fresco Especiado",
+      "Salado",
+      "Ámbar"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales, uso diario y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "invictus-victory",
+    "category": "caballero",
+    "name": "INVICTUS VICTORY",
+    "shortDesc": "Avainillado y dulce, con un fondo ámbar aromático y un especiado suave y elegante.",
+    "fullDesc": "Una fragancia avainillada y dulce, con un fondo ámbar aromático y un especiado suave que aporta calidez, equilibrio y una elegancia envolvente.",
+    "image": "images/perfumes/invictus-victory.png",
+    "notes": [
+      "Avainillado",
+      "Ámbar",
+      "Especiado Suave",
+      "Dulce",
+      "Aromático"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas, fiestas nocturnas, reuniones sociales y eventos especiales."
+    ]
+  },
+  {
+    "id": "invictus",
+    "category": "caballero",
+    "name": "INVICTUS",
+    "shortDesc": "Cítrico y marino, con un carácter aromático y fresco especiado sobre un fondo amaderado elegante.",
+    "fullDesc": "Una fragancia cítrica y marina, con matices aromáticos y fresco especiados que aportan vitalidad y energía, sostenidos por un fondo amaderado elegante y equilibrado.",
+    "image": "images/perfumes/invictus.png",
+    "notes": [
+      "Cítrico",
+      "Marino",
+      "Aromático",
+      "Fresco Especiado",
+      "Amaderado"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales, uso diario y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "invictus-acqua",
+    "category": "caballero",
+    "name": "INVICTUS ACQUA",
+    "shortDesc": "Marino y acuático, con violeta sutil y un fondo ámbar amaderado de carácter elegante.",
+    "fullDesc": "Una fragancia marina y acuática, con un matiz violeta que aporta suavidad, apoyada en un fondo ámbar amaderado que añade profundidad, elegancia y carácter.",
+    "image": "images/perfumes/invictus-acqua.png",
+    "notes": [
+      "Marino",
+      "Ámbar",
+      "Amaderado",
+      "Violeta",
+      "Acuático"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales, uso diario y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "blue-sail",
+    "category": "caballero",
+    "name": "BLUE SAIL",
+    "shortDesc": "Acuático y fresco, con matices verdes y afrutados que transmiten ligereza y vitalidad.",
+    "fullDesc": "Una fragancia acuática y fresca, con notas verdes y afrutadas que aportan ligereza, naturalidad y una sensación limpia, vibrante y revitalizante.",
+    "image": "images/perfumes/blue-sail.png",
+    "notes": [
+      "Acuático",
+      "Verde",
+      "Fresco",
+      "Afrutados"
+    ],
+    "recs": [
+      "Clima: Verano.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Uso diario, trabajo, reuniones informales y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "nautica-voyage",
+    "category": "caballero",
+    "name": "NAUTICA VOYAGE",
+    "shortDesc": "Fresco y verde, con matices afrutados y florales que se suavizan en un acabado atalcado elegante.",
+    "fullDesc": "Una fragancia verde y fresca, con notas afrutadas y florales que aportan ligereza y naturalidad, acompañadas de un fondo atalcado suave y elegante.",
+    "image": "images/perfumes/nautica-voyage.png",
+    "notes": [
+      "Verde",
+      "Afrutado",
+      "Floral",
+      "Fresco",
+      "Atalcado"
+    ],
+    "recs": [
+      "Clima: Verano.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales, uso diario y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "angel",
+    "category": "caballero",
+    "name": "ANGEL",
+    "shortDesc": "Dulce e intenso, con caramelo y vainilla cremosos, acentuados por café profundo y un picante cálido.",
+    "fullDesc": "Una fragancia dulce e intensa, donde el caramelo y la vainilla aportan cremosidad, el café añade profundidad y el picante cálido envuelve con carácter y sensualidad.",
+    "image": "images/perfumes/angel.png",
+    "notes": [
+      "Dulce",
+      "Picante Caliente",
+      "Caramelo",
+      "Vainilla",
+      "Café"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas nocturnas, fiestas elegantes y eventos sociales especiales."
+    ]
+  },
+  {
+    "id": "moschino-toy-boy",
+    "category": "caballero",
+    "name": "MOSCHINO TOY BOY",
+    "shortDesc": "Floral elegante de rosas, con matices almizclados y amaderados sobre un fondo ámbar cálido y refinado.",
+    "fullDesc": "Una fragancia floral de rosas, con un carácter almizclado y amaderado que aporta profundidad, sostenido por un fondo ámbar cálido, elegante y sofisticado.",
+    "image": "images/perfumes/moschino-2-toy-boy.png",
+    "notes": [
+      "Rosas",
+      "Floral",
+      "Almizclado",
+      "Amaderado",
+      "Ámbar"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas, reuniones sociales elegantes, fiestas nocturnas y eventos especiales."
+    ]
+  },
+  {
+    "id": "scandal",
+    "category": "caballero",
+    "name": "SCANDAL",
+    "shortDesc": "Dulce y aromático, con caramelo y vainilla equilibrados por cítricos sutiles, ámbar cálido y un especiado suave.",
+    "fullDesc": "Una fragancia dulce y aromática, donde el caramelo y la vainilla se equilibran con cítricos suaves, apoyados en un fondo ámbar y un especiado delicado que aporta calidez y elegancia.",
+    "image": "images/perfumes/scandal.png",
+    "notes": [
+      "Caramelo",
+      "Aromático",
+      "Dulce",
+      "Avainillado",
+      "Cítrico",
+      "Ámbar",
+      "Especiado Suave"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas, fiestas nocturnas, salidas sociales y eventos especiales."
+    ]
+  },
+  {
+    "id": "le-male-parfum",
+    "category": "caballero",
+    "name": "LE MALE PARFUM",
+    "shortDesc": "Cálido y aromático, con lavanda elegante, matices especiados y un fondo avainillado envolvente.",
+    "fullDesc": "Una fragancia cálida y especiada, donde la lavanda aromática aporta elegancia y frescura, equilibrada por un fondo avainillado que envuelve con suavidad y profundidad.",
+    "image": "images/perfumes/le-male-parfum.png",
+    "notes": [
+      "Cálido Especiado",
+      "Avainillado",
+      "Lavanda",
+      "Aromático"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas nocturnas, eventos elegantes, reuniones sociales formales y salidas especiales."
+    ]
+  },
+  {
+    "id": "le-beau-flower-edition-for-men",
+    "category": "caballero",
+    "name": "LE BEAU FLOWER EDITION FOR MEN",
+    "shortDesc": "Fresco y cítrico, con acordes acuáticos y aromáticos sobre un fondo amaderado, almizclado y ámbar suavemente atalcado.",
+    "fullDesc": "Una fragancia fresca y cítrica, con notas acuáticas y aromáticas que aportan limpieza y ligereza, apoyadas en un fondo amaderado, almizclado y ámbar con un acabado atalcado elegante y duradero.",
+    "image": "images/perfumes/le-beau-flower-edition-for-men.png",
+    "notes": [
+      "Cítrico",
+      "Acuático",
+      "Aromático",
+      "Amaderado",
+      "Almizclado",
+      "Ámbar",
+      "Atalcado",
+      "Fresco"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Uso diario, trabajo, reuniones informales y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "le-male-essence",
+    "category": "caballero",
+    "name": "LE MALE ESSENCE",
+    "shortDesc": "Cálido y aromático, con lavanda elegante, cuero intenso y un fondo avainillado de carácter especiado.",
+    "fullDesc": "Una fragancia cálida y especiada, con un corazón aromático de lavanda, matices de cuero que aportan carácter y un fondo avainillado que equilibra con elegancia y profundidad.",
+    "image": "images/perfumes/le-male-essence.png",
+    "notes": [
+      "Cálido Especiado",
+      "Aromático",
+      "Cuero",
+      "Avainillado",
+      "Lavanda."
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas nocturnas, reuniones sociales elegantes y salidas especiales."
+    ]
+  },
+  {
+    "id": "le-beau",
+    "category": "caballero",
+    "name": "LE BEAU",
+    "shortDesc": "Dulce y avainillado, con coco cremoso, matices amaderados y un fondo ámbar cálido y envolvente.",
+    "fullDesc": "Una fragancia dulce y avainillada, con un coco cremoso que aporta suavidad, matices amaderados que estructuran el aroma y un fondo ámbar cálido, elegante y envolvente.",
+    "image": "images/perfumes/le-beau.png",
+    "notes": [
+      "Dulce",
+      "Amaderado",
+      "Coco",
+      "Ámbar",
+      "Avainillado"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Uso diario, citas informales, reuniones sociales y actividades al aire libre."
+    ]
+  },
+  {
+    "id": "ultra-male",
+    "category": "caballero",
+    "name": "ULTRA MALE",
+    "shortDesc": "Avainillado y afrutado, con un carácter aromático de canela y un fondo ámbar cálido y seductor.",
+    "fullDesc": "Una fragancia avainillada y afrutada, con un corazón aromático de canela que aporta carácter y un fondo ámbar que envuelve con calidez, profundidad y elegancia.",
+    "image": "images/perfumes/ultra-male.png",
+    "notes": [
+      "Avainillado",
+      "Afrutado",
+      "Aromático",
+      "Canela",
+      "Ámbar"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas, fiestas nocturnas, salidas sociales y eventos especiales."
+    ]
+  },
+  {
+    "id": "le-male-elixir",
+    "category": "caballero",
+    "name": "LE MALE ELIXIR",
+    "shortDesc": "Dulce y avainillado, con matices amielados y un fondo ámbar aromático, cálido y envolvente.",
+    "fullDesc": "Una fragancia dulce y avainillada, con acordes amielados que aportan suavidad y un fondo ámbar aromático que envuelve con calidez, elegancia y carácter seductor.",
+    "image": "images/perfumes/le-male-elixir.png",
+    "notes": [
+      "Avainillado",
+      "Dulce",
+      "Amielado",
+      "Ámbar",
+      "Aromático"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas nocturnas, fiestas elegantes, salidas especiales y eventos sociales formales."
+    ]
+  },
+  {
+    "id": "le-male",
+    "category": "caballero",
+    "name": "LE MALE",
+    "shortDesc": "Aromático y elegante, con lavanda fresca y un toque especiado de canela, suavizados por un fondo avainillado que aporta calidez y distinción.",
+    "fullDesc": "Una fragancia aromática y fresca, donde la lavanda se combina con un especiado sutil de canela, equilibrado por un fondo avainillado que aporta calidez, elegancia y profundidad duradera.",
+    "image": "images/perfumes/le-male.png",
+    "notes": [
+      "Avainillado",
+      "Aromático",
+      "Fresco Especiado",
+      "Lavanda",
+      "Canela"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante la noche.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas, salidas nocturnas, reuniones sociales y eventos especiales."
+    ]
+  },
+  {
+    "id": "hb-iced",
+    "category": "caballero",
+    "name": "HB ICED",
+    "shortDesc": "Verde y aromático con cítricos frescos, especias ligeras y una sensación limpia y refrescante.",
+    "fullDesc": "Apertura verde y cítrica con matices aromáticos definidos, acompañada de una frescura especiada ligera que aporta limpieza y dinamismo al conjunto.",
+    "image": "images/perfumes/hb-iced.png",
+    "notes": [
+      "Verde",
+      "Aromático",
+      "Fresco Especiado",
+      "Cítrico"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales y uso diario."
+    ]
+  },
+  {
+    "id": "hb-element",
+    "category": "caballero",
+    "name": "Hb Element",
+    "shortDesc": "Fresco y cítrico, con un fondo acuático limpio y un sutil toque cálido especiado.",
+    "fullDesc": "Una fragancia **fresca y cítrica**, con matices **acuáticos** que transmiten pureza y ligereza, equilibrados por un **toque cálido especiado** que aporta profundidad y carácter elegante.",
+    "image": "images/perfumes/hb-element.png",
+    "notes": [
+      "Fresco",
+      "Cítrico",
+      "Acuático",
+      "Cálido Especiado"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales y uso diario."
+    ]
+  },
+  {
+    "id": "scuderia-ferrari",
+    "category": "caballero",
+    "name": "Scuderia Ferrari",
+    "shortDesc": "Aromático y cítrico con frescura especiada, matices verdes y un fondo amaderado limpio.",
+    "fullDesc": "Apertura cítrica y aromática con frescura especiada y acordes verdes, asentada sobre un fondo amaderado limpio y equilibrado.",
+    "image": "images/perfumes/scuderia-ferrari.png",
+    "notes": [
+      "Aromático",
+      "Fresco Especiado",
+      "Cítrico",
+      "Verde",
+      "Amaderado"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, actividades diarias y salidas informales."
+    ]
+  },
+  {
+    "id": "sauvage",
+    "category": "caballero",
+    "name": "Sauvage",
+    "shortDesc": "Fresco y especiado con cítricos brillantes, acordes aromáticos, ámbar suave y un fondo almizclado limpio.",
+    "fullDesc": "Apertura fresca y especiada con notas cítricas luminosas, acompañadas de matices aromáticos, ámbar suave y un fondo almizclado limpio.",
+    "image": "images/perfumes/sauvage.png",
+    "notes": [
+      "Fresco Especiado",
+      "Ámbar",
+      "Cítrico",
+      "Aromático",
+      "Almizclado"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales y uso diario."
+    ]
+  },
+  {
+    "id": "creed-aventus",
+    "category": "caballero",
+    "name": "Creed Aventus",
+    "shortDesc": "Afrutado y dulce con cuero marcado, notas amaderadas y un fondo ahumado intenso.",
+    "fullDesc": "Apertura afrutada y dulce que evoluciona hacia cuero intenso, notas amaderadas profundas y un fondo ahumado bien definido.",
+    "image": "images/perfumes/creed-aventus.png",
+    "notes": [
+      "Afrutados",
+      "Dulce",
+      "Cuero",
+      "Amaderado",
+      "Ahumado"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones formales, citas y eventos sociales."
+    ]
+  },
+  {
+    "id": "creed-silver",
+    "category": "caballero",
+    "name": "Creed Silver",
+    "shortDesc": "Verde y cítrico con notas afrutadas, almizcle limpio y una frescura ligera.",
+    "fullDesc": "Apertura verde y cítrica con matices afrutados, acompañada de almizcle limpio y una sensación fresca y ligera.",
+    "image": "images/perfumes/creed-silver.png",
+    "notes": [
+      "Verde",
+      "Citrico",
+      "Afrutado",
+      "Almizclado",
+      "Fresco"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones formales, actividades al aire libre y uso diario."
+    ]
+  },
+  {
+    "id": "blue-de-channel",
+    "category": "caballero",
+    "name": "Blue De Channel",
+    "shortDesc": "Cítrico luminoso con ámbar cálido, matices aromáticos, especias suaves y un fondo amaderado.",
+    "fullDesc": "Salida cítrica fresca que se mezcla con acordes aromáticos y especias cálidas, asentada sobre un fondo amaderado con ámbar envolvente.",
+    "image": "images/perfumes/blue-de-channel.png",
+    "notes": [
+      "Cítrico",
+      "Ámbar",
+      "Amaderado",
+      "Cálido Especiado",
+      "Aromático"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones formales, citas y uso diario."
+    ]
+  },
+  {
+    "id": "cr7",
+    "category": "caballero",
+    "name": "CR7",
+    "shortDesc": "Atalcado y cálido especiado con lavanda aromática, matices amaderados y un fondo equilibrado.",
+    "fullDesc": "Apertura atalcada y aromática dominada por lavanda, acompañada de especias cálidas y un fondo amaderado equilibrado.",
+    "image": "images/perfumes/cr7.png",
+    "notes": [
+      "Atalcado",
+      "Cálido Especiado",
+      "Amaderado",
+      "Aromático",
+      "Lavanda"
+    ],
+    "recs": [
+      "Clima: Verano; en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, actividades diarias y salidas informales."
+    ]
+  },
+  {
+    "id": "ck-one-shock",
+    "category": "caballero",
+    "name": "Ck One Shock",
+    "shortDesc": "Tabaco cálido y especiado con ámbar envolvente, matices dulces y un toque fresco especiado.",
+    "fullDesc": "Apertura de tabaco cálido y especiado que se equilibra con ámbar envolvente, matices dulces y un fondo fresco especiado bien integrado.",
+    "image": "images/perfumes/ck-one-shock.png",
+    "notes": [
+      "Tabaco",
+      "Cálido Especiado",
+      "Ámbar",
+      "Dulce",
+      "Fresco Especiado"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; en verano durante noches frescas.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Salidas nocturnas, reuniones informales y encuentros sociales."
+    ]
+  },
+  {
+    "id": "escape",
+    "category": "caballero",
+    "name": "Escape",
+    "shortDesc": "Amaderado y aromático con frescura especiada y un toque cítrico limpio.",
+    "fullDesc": "Apertura cítrica fresca con notas aromáticas y especiadas, asentada sobre un fondo amaderado limpio y equilibrado.",
+    "image": "images/perfumes/escape.png",
+    "notes": [
+      "Amaderado",
+      "Aromático",
+      "Fresco Especiado",
+      "Cítrico"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; adecuado también en invierno durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales y uso diario."
+    ]
+  },
+  {
+    "id": "eternity",
+    "category": "caballero",
+    "name": "Eternity",
+    "shortDesc": "Aromático y cítrico con frescura especiada, lavanda limpia y un fondo amaderado equilibrado.",
+    "fullDesc": "Apertura cítrica y aromática con frescura especiada y lavanda limpia, asentada sobre un fondo amaderado equilibrado.",
+    "image": "images/perfumes/eternity.png",
+    "notes": [
+      "Aromático",
+      "Cítrico",
+      "Fresco Especiado",
+      "Amaderado",
+      "Lavanda"
+    ],
+    "recs": [
+      "Clima: Verano; en invierno funciona correctamente durante el día.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, oficina y reuniones formales."
+    ]
+  },
+  {
+    "id": "212-heroes",
+    "category": "caballero",
+    "name": "212 Heroes",
+    "shortDesc": "Aromático y herbal con matices afrutados, especias cálidas y un acorde de cannabis distintivo.",
+    "fullDesc": "Apertura aromática y herbal con matices afrutados, seguida de especias cálidas y un acorde de cannabis bien integrado.",
+    "image": "images/perfumes/212-heroes.png",
+    "notes": [
+      "Aromático",
+      "Herbal",
+      "Afrutados",
+      "Cálido Especiado",
+      "Cannabis"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; adecuado también en invierno durante días templados.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales y uso diario."
+    ]
+  },
+  {
+    "id": "carolina-herrera-ch",
+    "category": "caballero",
+    "name": "Carolina Herrera CH",
+    "shortDesc": "Amaderado y avainillado con bergamota fresca, cuero suave y lavanda aromática.",
+    "fullDesc": "Salida de bergamota fresca que se combina con lavanda aromática, cuero suave y un fondo amaderado avainillado elegante.",
+    "image": "images/perfumes/carolina-herrera-ch.png",
+    "notes": [
+      "Amaderado",
+      "Avainillado",
+      "Bergamota",
+      "Cuero",
+      "Lavanda"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; adecuado también en verano durante noches frescas.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas, cenas formales y reuniones elegantes."
+    ]
+  },
+  {
+    "id": "212-vip-wins",
+    "category": "caballero",
+    "name": "212 Vip Wins",
+    "shortDesc": "Fresco y especiado con cítricos brillantes, matices verdes y un dulzor aromático equilibrado.",
+    "fullDesc": "Salida fresca y especiada con notas cítricas luminosas, acordes verdes y un dulzor aromático suave y equilibrado.",
+    "image": "images/perfumes/212-vip-wins.png",
+    "notes": [
+      "Fresco Especiado",
+      "Cítrico",
+      "Aromático",
+      "Verde",
+      "Dulce"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; adecuado también en invierno durante días templados.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Trabajo, reuniones informales y uso diario."
+    ]
+  },
+  {
+    "id": "212-sexy",
+    "category": "caballero",
+    "name": "212 Sexy",
+    "shortDesc": "Fresco y cálido especiado con lavanda aromática, matices atalcados y un fondo amaderado equilibrado.",
+    "fullDesc": "Apertura fresco especiada y aromática dominada por lavanda limpia, con matices atalcados y un fondo amaderado cálido y bien equilibrado.",
+    "image": "images/perfumes/212-sexy.png",
+    "notes": [
+      "Fresco Especiado",
+      "Aromático",
+      "Amaderado",
+      "Cálido Especiado",
+      "Atalcado",
+      "Lavanda"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; adecuado también en verano durante noches frescas.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas, cenas elegantes y salidas nocturnas."
+    ]
+  },
+  {
+    "id": "bad-boy-dazzling-garden",
+    "category": "caballero",
+    "name": "Bad Boy Dazzling Garden",
+    "shortDesc": "Cálido y fresco especiado con cacao dulce, matices aromáticos y un fondo envolvente.",
+    "fullDesc": "Apertura especiada con contraste entre notas cálidas y frescas, acompañadas de cacao dulce, acordes aromáticos y un fondo envolvente.",
+    "image": "images/perfumes/bad-boy-dazzling-garden.png",
+    "notes": [
+      "Cálido Especiado",
+      "Fresco Especiado",
+      "Cacao",
+      "Aromático",
+      "Dulce"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; adecuado también en verano durante noches frescas.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Fiestas, citas y eventos nocturnos"
+    ]
+  },
+  {
+    "id": "bad-boy",
+    "category": "caballero",
+    "name": "Bad Boy",
+    "shortDesc": "Cálido y especiado con ámbar envolvente, matices aromáticos, cacao profundo y un fondo amaderado.",
+    "fullDesc": "Apertura cálida y especiada que se combina con ámbar envolvente y matices aromáticos, acompañados de cacao profundo y un fondo amaderado elegante.",
+    "image": "images/perfumes/bad-boy.png",
+    "notes": [
+      "Cálido Especiado",
+      "Ámbar",
+      "Amaderado",
+      "Cacao",
+      "Aromático"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; adecuado también en verano durante noches frescas.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas, fiestas y eventos nocturnos."
+    ]
+  },
+  {
+    "id": "212-vip",
+    "category": "caballero",
+    "name": "212 VIP",
+    "shortDesc": "Aromático con cítricos vibrantes, especias cálidas, notas de vodka y un fondo amaderado elegante.",
+    "fullDesc": "Apertura cítrica y aromática que se mezcla con especias cálidas y un acorde de vodka, sobre un fondo amaderado equilibrado.",
+    "image": "images/perfumes/212-vip.png",
+    "notes": [
+      "Aromático",
+      "Vodka",
+      "Cálido Especiado",
+      "Amaderado",
+      "Cítrico"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; adecuado también en invierno durante días templados.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Fiestas, salidas nocturnas y reuniones sociales."
+    ]
+  },
+  {
+    "id": "ch-prive-men",
+    "category": "caballero",
+    "name": "Ch Prive Men",
+    "shortDesc": "Cálido y especiado con cuero marcado, matices aromáticos, whisky profundo y un fondo amaderado elegante.",
+    "fullDesc": "Apertura cálida y especiada que se combina con cuero intenso y notas aromáticas, acompañadas de un acorde de whisky y un fondo amaderado profundo.",
+    "image": "images/perfumes/ch-prive-men.png",
+    "notes": [
+      "Cálido Especiado",
+      "Cuero",
+      "Aromático",
+      "Whisky",
+      "Amaderado"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente; adecuado también en verano durante noches frescas.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Citas, cenas formales y eventos nocturnos elegantes."
+    ]
+  },
+  {
+    "id": "212-vip-club",
+    "category": "caballero",
+    "name": "212 Vip Club",
+    "shortDesc": "Fresco especiado con cítricos vibrantes, toques cálidos de especias y chocolate, apoyados por un fondo amaderado.",
+    "fullDesc": "Salida fresca especiada y cítrica con toques cálidos de especias y chocolate, sobre un fondo amaderado suave y equilibrado.",
+    "image": "images/perfumes/212-vip-club.png",
+    "notes": [
+      "Fresco Especiado",
+      "Chocolate",
+      "Cítrico",
+      "Cálido Especiado",
+      "Amaderado"
+    ],
+    "recs": [
+      "Clima: Verano principalmente; adecuado también en invierno durante días cálidos.",
+      "Uso: Para uso diurno.",
+      "Ocasión: Reuniones informales, actividades sociales y salidas casuales."
+    ]
+  },
+  {
+    "id": "212-vip-black-red",
+    "category": "caballero",
+    "name": "212 Vip Black Red",
+    "shortDesc": "Acordes cálidos y especiados con matices aromáticos y frescos, cuero marcado y un fondo amargo elegante.",
+    "fullDesc": "Apertura cálida y especiada con notas aromáticas y frescura especiada, seguida de cuero marcado y un fondo amargo profundo.",
+    "image": "images/perfumes/212-vip-black-red.png",
+    "notes": [
+      "Cálido Especiado",
+      "Aromático",
+      "Fresco Especiado",
+      "Cuero",
+      "Amargo"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente, también en verano.",
+      "Uso: Para usar en la noche.",
+      "Ocasión: Fiestas, salidas nocturnas y eventos especiales."
+    ]
+  },
+  {
+    "id": "212-vip-black",
+    "category": "caballero",
+    "name": "212 Vip Black",
+    "shortDesc": "Aromático con vainilla suave, especias ligeras, anís delicado y un fondo almizclado.",
+    "fullDesc": "Aromático y envolvente con vainilla suave y especias delicadas, realzado por anís sutil y un fondo almizclado limpio y cálido.",
+    "image": "images/perfumes/212-vip-black.png",
+    "notes": [
+      "Aromático",
+      "Avainillado",
+      "Especiado Suave",
+      "Anís",
+      "Almizclado"
+    ],
+    "recs": [
+      "Clima: Invierno principalmente, adecuado también para verano en momentos puntuales.",
+      "Uso: Para uso nocturno.",
+      "Ocasión: Fiestas, salidas nocturnas y citas."
+    ]
+  },
+  {
+    "id": "212-nyc",
+    "category": "caballero",
+    "name": "212 Nyc",
+    "shortDesc": "Cítrico y verde con matices aromáticos frescos, toques especiados ligeros y un fondo amaderado suave.",
+    "fullDesc": "Salida cítrica y verde muy fresca, acompañada de notas aromáticas y un toque especiado ligero, con un fondo amaderado limpio y equilibrado.",
+    "image": "images/perfumes/212-nyc.png",
+    "notes": [
+      "Cítrico",
+      "Verde",
+      "Aromático",
+      "Amaderado",
+      "Fresco Especiado"
+    ],
+    "recs": [
+      "Clima: Verano, invierno.",
+      "Uso: Para la mañana y durante el día, ideal para algo fresco y ligero.",
+      "Ocasión: Trabajo, universidad, uso diario y salidas casuales."
+    ]
+  },
+  {
+    "id": "man-in-black",
+    "category": "caballero",
+    "name": "Man In Black",
+    "shortDesc": "Picante y leñoso con cuero marcado, ron intenso y un fondo ámbar cálido.",
+    "fullDesc": "Apertura picante y leñosa que se mezcla con cuero profundo, ron intenso y un fondo ámbar cálido y envolvente.",
+    "image": "images/perfumes/man-in-black.png",
+    "notes": [
+      "Picante",
+      "Leñoso",
+      "Cuero",
+      "Ron",
+      "Ámbar"
+    ],
+    "recs": [
+      "Clima: Invierno y verano, solo en noches frescas.",
+      "Uso: Para usar de noche, en salidas, cenas o citas.",
+      "Ocasión: Citas, eventos especiales y salidas nocturnas."
+    ]
+  },
+  {
+    "id": "bharara-king",
+    "category": "caballero",
+    "name": "Bharara King",
+    "shortDesc": "Cítrico y afrutado con vainilla dulce, matices atalcados y una sensación suave y envolvente.",
+    "fullDesc": "Salida cítrica y afrutada que se funde con vainilla dulce, dejando un fondo atalcado suave y delicado.",
+    "image": "images/perfumes/bharara-king.png",
+    "notes": [
+      "Cítrico",
+      "Afrutado",
+      "Avainillado",
+      "Dulce",
+      "Atalcado"
+    ],
+    "recs": [
+      "Clima: Verano, invierno (mejor en días cálidos).",
+      "Uso: Diario con estilo, oficina y salidas casuales.",
+      "Ocasión: Día a noche, citas y reuniones sociales."
+    ]
+  },
+  {
+    "id": "code-giorgio-armani",
+    "category": "caballero",
+    "name": "Code Giorgio Armani",
+    "shortDesc": "Cítrico vibrante con cuero suave, anís delicado, especias ligeras y un toque floral elegante.",
+    "fullDesc": "Salida cítrica fresca que se combina con cuero suave y anís sutil, acompañados de especias delicadas y un fondo floral elegante.",
+    "image": "images/perfumes/code-giorgio-armani.png",
+    "notes": [
+      "Cítrico",
+      "Cuero",
+      "Anís",
+      "Especiado Suave",
+      "Florales"
+    ],
+    "recs": [
+      "Clima: Invierno, verano (mejor en tardes y noches).",
+      "Uso: Diario con estilo, oficina y salidas casuales.",
+      "Ocasión: Citas, salidas nocturnas y eventos especiales."
+    ]
+  },
+  {
+    "id": "acqua-di-gio-profondo",
+    "category": "caballero",
+    "name": "Acqua Di Gio Profondo",
+    "shortDesc": "Aromático y cítrico con notas marinas, frescura especiada y un carácter limpio y refrescante.",
+    "fullDesc": "Salida cítrica fresca con notas marinas y aromáticas, acompañadas de una frescura especiada limpia y revitalizante.",
+    "image": "images/perfumes/acqua-di-gio-profondo.png",
+    "notes": [
+      "Aromático",
+      "Marino",
+      "Cítrico",
+      "Fresco Especiado",
+      "Fresco"
+    ],
+    "recs": [
+      "Clima: Verano, invierno (mejor en tardes y noches).",
+      "Uso: Diario con estilo, salidas casuales y elegantes.",
+      "Ocasión: Citas, reuniones, noches especiales y eventos."
+    ]
+  },
+  {
+    "id": "acqua-di-gio-profumo",
+    "category": "caballero",
+    "name": "Acqua Di Gio Profumo",
+    "shortDesc": "ahora dame una descripción de 1 línea y media, un poco detallada. de los aromas anteriores.",
+    "fullDesc": "Aromático y marino con frescura especiada al inicio, seguido de un ámbar cálido y un toque ahumado que le da profundidad.",
+    "image": "images/perfumes/acqua-di-gio-profumo.png",
+    "notes": [
+      "Aromático",
+      "Marino",
+      "Fresco Especiado",
+      "Ámbar",
+      "Ahumado"
+    ],
+    "recs": [
+      "Clima: Verano o invierno (mejor en noches).",
+      "Uso: Diario con elegancia, oficina y salidas.",
+      "Ocasión: Citas, eventos nocturnos y reuniones importantes."
+    ]
+  },
+  {
+    "id": "acqua-di-gio",
+    "category": "caballero",
+    "name": "Acqua Di Gio",
+    "shortDesc": "Cítricos vibrantes con matices aromáticos y marinos, apoyados por un fondo amaderado fresco.",
+    "fullDesc": "ahora dame una descripción de 1 línea y media, un poco detallada. de los aromas anteriores.",
+    "image": "images/perfumes/acqua-di-gio.png",
+    "notes": [
+      "Cítrico",
+      "Aromático",
+      "Marino",
+      "Amaderado",
+      "Fresco"
+    ],
+    "recs": [
+      "Clima: Verano (ideal), invierno (también funciona).",
+      "Uso: Diario, oficina y salidas casuales.",
+      "Ocasión: Día a día, playa y reuniones informales."
+    ]
+  },
+  {
+    "id": "odyssey-mandarin-sky",
+    "category": "caballero",
+    "name": "Odyssey Mandarin Sky",
+    "shortDesc": "Cítrico brillante con caramelo dulce, ámbar cálido y un toque aromático envolvente.",
+    "fullDesc": "Salida cítrica luminosa con caramelo dulce, un fondo ámbar cálido y un toque aromático que lo hace adictivo.",
+    "image": "images/perfumes/odyssey-mandarin-sky.png",
+    "notes": [
+      "Cítrico",
+      "Caramelo",
+      "Dulce",
+      "Ámbar",
+      "Aromático"
+    ],
+    "recs": [
+      "Clima: Verano, invierno (mejor en tardes y noches).",
+      "Uso: Casual premium, diario con estilo (salidas y trabajo).",
+      "Ocasión: Citas, reuniones, salidas nocturnas y eventos especiales."
+    ]
+  },
+  {
+    "id": "club-de-nuit-intense",
+    "category": "caballero",
+    "name": "Club De Nuit Intense",
+    "shortDesc": "Cítrico y afrutado con un fondo amaderado, cuero marcado y un toque ahumado intenso.",
+    "fullDesc": "Salida cítrica y afrutada con un corazón amaderado, cuero profundo y un toque ahumado que le da intensidad.",
+    "image": "images/perfumes/club-de-nuit-intense.png",
+    "notes": [
+      "Cítrico",
+      "Amaderado",
+      "Cuero",
+      "Afrutado",
+      "Ahumado"
+    ],
+    "recs": [
+      "Clima: Templado o frío (mejor otoño/invierno).",
+      "Uso: Noches o uso diario en clima frío.",
+      "Ocasión: Citas, eventos formales, salidas nocturnas."
+    ]
+  },
+  {
+    "id": "animale",
+    "category": "caballero",
+    "name": "Animale",
+    "shortDesc": "Dulce y amielado con toques afrutados, vainilla cremosa y un fondo amaderado suave.",
+    "fullDesc": "Dulce y amielado con un toque afrutado jugoso, envuelto en vainilla cremosa y un fondo amaderado suave y cálido.",
+    "image": "images/perfumes/animale.png",
+    "notes": [
+      "Dulce",
+      "Amielado",
+      "Amaderado",
+      "Avainillado",
+      "Afrutados"
+    ],
+    "recs": [
+      "Clima: Frío o templado (mejor en noches, invierno).",
+      "Uso: Salidas nocturnas, cuando quieres destacar.",
+      "Ocasión: Citas, eventos especiales, cenas y fiestas."
+    ]
+  },
+  {
+    "id": "king-of-seduction",
     "category": "caballero",
     "name": "King of Seduction",
     "shortDesc": "Aromático y cítrico con un toque afrutado, notas marinas frescas y un fondo amaderado suave.",
@@ -56,7 +1416,8 @@
     "recs": [
       "Clima: Cálido o templado (primavera/verano).",
       "Uso: Diario o casual (trabajo, gym, salida de día).",
-      "Ocasión: Reuniones informales, paseo, cita relajada."]
+      "Ocasión: Reuniones informales, paseo, cita relajada."
+    ]
   },
   {
     "id": "blue-seduction",
@@ -73,9 +1434,11 @@
       "Cítrico"
     ],
     "recs": [
-      "Clima: Ideal para primavera y verano. Uso: Perfecto para salidas informales. Ocasión: Para reuniones casuales"]
+      "Clima: Ideal para primavera y verano. Uso: Perfecto para salidas informales. Ocasión: Para reuniones casuales"
+    ]
   }
 ]
+
 
 
 
