@@ -152,6 +152,7 @@ function renderPerfGrid(list){
       <img src="${p.image}" alt="${p.name}">
       <div class="perfCard__body">
         <span class="perfBadge">${p.category.toUpperCase()}</span>
+        <div class="pCard__brand">${p.brand || ""}</div>
         <h3 class="perfCard__name">${p.name}</h3>
         <p class="perfCard__desc">${p.shortDesc}</p>
         <button class="btn" data-open-perf="${p.id}">Ver más</button>
@@ -557,4 +558,5 @@ document.addEventListener("keydown", (e)=>{
   updateCartCount();
   renderCartUI();
 })();
+
 
