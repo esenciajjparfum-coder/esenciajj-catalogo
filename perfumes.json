@@ -2,7 +2,6 @@
   {
     "id": "yara-candy",
     "category": "dama",
-    "brand": "Lattafa"
     "name": "Yara Candy",
     "shortDesc": "Dulce, avainillado y frutal con toque floral blanco.",
     "fullDesc": "Dulce y envolvente: avainillado con un toque afrutado, corazón floral blanco, sensación atalcada y fondo amaderado.",
@@ -1439,6 +1438,7 @@
     ]
   }
 ]
+
 
 
 
