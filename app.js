@@ -224,6 +224,7 @@ let selectedML = null;
 
 const pCatKicker = $("#pCatKicker");
 const pTitle     = $("#pTitle");
+const pBrand     = $("#pBrand");
 const pFullDesc  = $("#pFullDesc");
 const pImg       = $("#pImg");
 const pNotes     = $("#pNotes");
@@ -247,6 +248,7 @@ function openPerfume(id){
 
   pCatKicker.textContent = (p.category || "Perfume").toUpperCase();
   pTitle.textContent = p.name;
+  pBrand.textContent = p.brand || "";
   pFullDesc.textContent = p.fullDesc;
   pImg.src = p.image;
   pImg.alt = p.name;
@@ -558,5 +560,6 @@ document.addEventListener("keydown", (e)=>{
   updateCartCount();
   renderCartUI();
 })();
+
 
 
