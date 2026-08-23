@@ -266,7 +266,7 @@ body{
 }
 .modal__box{
   height:100%;
-  max-width:1100px;
+  max-width:1500px;
   margin:0 auto;
   border:1px solid var(--gold25);
   border-radius: var(--radius2);
@@ -703,8 +703,22 @@ body{
   .mSearch{
     max-width: 100%;
   }
+/* Marco más ancho del catálogo */
+.modal__box {
+  width: calc(100vw - 28px);
+  max-width: 1500px;
+
+  height: calc(100dvh - 28px);
+  max-height: calc(100dvh - 28px);
+
+  margin: 0 auto;
 }
 
+/* Se conservan las tres tarjetas */
+.perfGrid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+ }
+}
 
 
 
