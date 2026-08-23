@@ -385,7 +385,7 @@ body{
   .perfGrid{ grid-template-columns: repeat(2, minmax(0,1fr)); }
 }
 @media(max-width: 640px){
-  .perfGrid{ grid-template-columns: 1fr; }
+  .perfGrid{ grid-template-columns: repeat(2, minmax(0,1fr)); }
 }
 
 .perfCard{
@@ -641,8 +641,9 @@ body{
 }
 
 .modal__box{
-  height: 100dvh;           /* clave en Android */
-  max-height: 100dvh;       /* evita recortes */
+  width: min(1500px, calc(100vw - 24px));
+  height: calc(100dvh - 24px);
+  max-height: calc(100dvh - 24px);
   display: flex;
   flex-direction: column;
 }
@@ -672,134 +673,90 @@ body{
   margin: 12px -16px -16px; /* pega al borde del modal__body */
   border-radius: 0 0 16px 16px;
 }
-/* ===== FIX: Botón Cerrar visible en el 1er modal (móvil) ===== */
-@media (max-width: 600px){
-
-  /* Header del modal: que no se desborde */
-  .modal__top{
-    padding: 10px 10px;
-    gap: 10px;
-    align-items: flex-start;
-  }
-
-  /* El contenido (texto) debe poder encogerse */
-  .modal__top > div{
-    min-width: 0;               /* CLAVE para que el texto no empuje al botón */
-  }
-
-  /* El botón NO debe encogerse ni salirse */
-  .modal__top .btn{
-    flex-shrink: 0;             /* CLAVE */
-    margin-left: auto;          /* se pega a la derecha */
-    max-width: 120px;
-    padding: 8px 10px;
-    font-size: 12px;
-  }
-
-  /* Baja un poco tamaños para que todo entre sin cortar */
-  .modal__title{ font-size: 18px; }
-  .modal__desc{ font-size: 13px; line-height: 1.25; }
-
-  /* El buscador interno que no quede gigante */
-  .mSearch{
-    max-width: 100%;
-  }
-/* Marco más ancho del catálogo */
-.modal__box {
-  width: calc(100vw - 28px);
-  max-width: 1500px;
-
-  height: calc(100dvh - 28px);
-  max-height: calc(100dvh - 28px);
-
-  margin: 0 auto;
-}
-
-/* Se conservan las tres tarjetas */
-.perfGrid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
- }
-  /* En el catálogo solo mostramos la imagen y el botón */
-.perfCard__body {
-  padding: 12px;
-}
-
-/* La información completa aparecerá al entrar en Ver más */
+/* Vista rapida: imagen, nombre y boton. Los detalles quedan en "Ver mas". */
 .perfCard__body .perfBadge,
-.perfCard__body .perfCard__name,
 .perfCard__body .perfCard__brand,
-.perfCard__body .perfCard__desc {
-  display: none;
+.perfCard__body .perfCard__desc{
+  display:none;
+}
+.perfCard__body .btn{
+  width:100%;
+  margin:0;
 }
 
-/* Botón debajo de la imagen */
-.perfCard__body .btn {
-  width: 100%;
-  margin: 0;
-}
-
-/* Tarjeta más limpia */
-.perfCard {
-  border-radius: 20px;
-  overflow: hidden;
-  background: #080808;
- }
-  /* CATÁLOGO EN CELULAR: 2 TARJETAS */
-@media (max-width: 640px) {
-  .perfGrid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
+/* Tablet y celular: dos perfumes por fila. */
+@media (max-width: 768px){
+  .perfGrid{
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap:10px;
   }
-
-  .perfCard {
-    border-radius: 15px;
+  .perfCard{
+    min-width:0;
+    border-radius:15px;
   }
-
-  .perfCard img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+  .perfCard img{
+    width:100%;
+    aspect-ratio:1 / 1;
+    object-fit:cover;
   }
-
-  .perfCard__body {
-    padding: 9px;
-    gap: 8px;
+  .perfCard__body{
+    padding:9px;
+    gap:8px;
   }
-
-  /* Mostrar nuevamente el nombre */
-  .perfCard__body .perfCard__name {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-
-    overflow: hidden;
-    margin: 0;
-    min-height: 2.4em;
-
-    font-size: 13px;
-    line-height: 1.2;
-    text-align: left;
+  .perfCard__name{
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow:hidden;
+    min-height:2.4em;
+    margin:0;
+    font-size:13px;
+    line-height:1.2;
+    text-align:left;
   }
-
-  /* Ocultar datos innecesarios en la vista rápida */
-  .perfCard__body .perfBadge,
-  .perfCard__body .perfCard__brand,
-  .perfCard__body .perfCard__desc {
-    display: none;
-  }
-
-  /* Botón más compacto */
-  .perfCard__body .btn {
-    width: 100%;
-    min-height: 40px;
-    padding: 9px 6px;
-    margin: 0;
-
-    border-radius: 12px;
-    font-size: 13px;
+  .perfCard__body .btn{
+    min-height:40px;
+    padding:9px 6px;
+    border-radius:12px;
+    font-size:13px;
   }
 }
 
+/* Modal en celular: ocupa la pantalla y mantiene visible el boton Cerrar. */
+@media (max-width: 600px){
+  .modal{ padding:0; }
+  .modal__box{
+    width:100%;
+    height:100dvh;
+    max-height:100dvh;
+    border-radius:0;
+  }
+  .modal__top{
+    padding:10px;
+    gap:10px;
+    align-items:flex-start;
+  }
+  .modal__top > div{ min-width:0; }
+  .modal__top .btn{
+    flex-shrink:0;
+    margin-left:auto;
+    max-width:120px;
+    padding:8px 10px;
+    font-size:12px;
+  }
+  .modal__title{ font-size:18px; }
+  .modal__desc{ font-size:13px; line-height:1.25; }
+  .mSearch{ max-width:100%; }
+  .pImg{
+    max-height:300px;
+    object-fit:cover;
+  }
+  #addToCartBtn{
+    width:100%;
+    padding:14px 16px;
+    border-radius:16px;
+  }
+}
 
 
 
