@@ -400,7 +400,6 @@ body{
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 5;
   object-fit: contain;
   background: #070707;
 }
