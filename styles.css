@@ -744,6 +744,60 @@ body{
   overflow: hidden;
   background: #080808;
  }
+  /* CATÁLOGO EN CELULAR: 2 TARJETAS */
+@media (max-width: 640px) {
+  .perfGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .perfCard {
+    border-radius: 15px;
+  }
+
+  .perfCard img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .perfCard__body {
+    padding: 9px;
+    gap: 8px;
+  }
+
+  /* Mostrar nuevamente el nombre */
+  .perfCard__body .perfCard__name {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+    overflow: hidden;
+    margin: 0;
+    min-height: 2.4em;
+
+    font-size: 13px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  /* Ocultar datos innecesarios en la vista rápida */
+  .perfCard__body .perfBadge,
+  .perfCard__body .perfCard__brand,
+  .perfCard__body .perfCard__desc {
+    display: none;
+  }
+
+  /* Botón más compacto */
+  .perfCard__body .btn {
+    width: 100%;
+    min-height: 40px;
+    padding: 9px 6px;
+    margin: 0;
+
+    border-radius: 12px;
+    font-size: 13px;
+  }
 }
 
 
