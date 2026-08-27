@@ -12,47 +12,6 @@
   --radius: 18px;
   --radius2: 22px;
 }
-/* Colores oficiales de los aromas */
-{
-  --aroma-dulce: #EE363B;
-  --aroma-atalcado: #EEDDCC;
-  --aroma-amaderado: #774414;
-  --aroma-florales: #FF5F8D;
-  --aroma-aromatico: #37A089;
-  --aroma-citrico: #F9FF52;
-  --aroma-fresco-especiado: #83C928;
-  --aroma-animalico: #8E4B13;
-
-  --aroma-balsamico: #AD8359;
-  --aroma-calido-especiado: #CC3300;
-  --aroma-verde: #0E8C1D;
-  --aroma-fresco: #9BE5ED;
-  --aroma-almizclado: #E7D8EA;
-  --aroma-afrutados: #FC4B29;
-  --aroma-especiado-suave: #E27752;
-  --aroma-ambar: #BC4D10;
-
-  --aroma-terrosos: #544838;
-  --aroma-floral-blanco: #EDF2FB;
-  --aroma-avainillado: #FFFEC0;
-  --aroma-rosas: #FE016B;
-  --aroma-herbal: #6CA47F;
-  --aroma-pachuli: #63652E;
-  --aroma-lactonico: #FBF9F2;
-  --aroma-aldehidico: #D8E9F6;
-
-  --aroma-acuatico: #63CCE2;
-  --aroma-ahumado: #827487;
-  --aroma-cuero: #78483A;
-  --aroma-jabonoso: #E3F6FC;
-  --aroma-violeta: #9C1DFF;
-  --aroma-amargo: #C0E741;
-  --aroma-ozonico: #C9FDFB;
-  --aroma-tropical: #F6AF09;
-
-  --aroma-track: #354052;
-}
-
 *{ box-sizing:border-box; }
 html,body{ height:100%; }
 body{
@@ -498,53 +457,81 @@ body{
   margin-bottom:12px;
 }
 .pBlock h3{ margin:0 0 10px; font-size:14px; letter-spacing:.04em; opacity:.9; }
-.chipsRow {
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-  width: 100%;
-  max-width: 540px;
+.chipsRow{
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  gap:7px;
+  width:100%;
+  max-width:540px;
 }
 
-.chipMini {
-  --aroma: #B98D52;
-  --nivel: 75%;
+.chipMini{
+  --aroma:#b98d52;
+  --aroma-texto:#ffffff;
+  --nivel:75%;
 
-  display: block;
-  width: 100%;
-  min-width: 0;
-  padding: 8px 12px;
-  border: 0;
-  border-radius: 7px;
+  display:block;
+  width:100%;
+  min-width:0;
+  padding:8px 12px;
+  border:0;
+  border-radius:7px;
 
-  background:
-    linear-gradient(
-      90deg,
-      var(--aroma) 0 var(--nivel),
-      #354052 var(--nivel) 100%
-    );
+  background:linear-gradient(
+    90deg,
+    var(--aroma, #b98d52) 0 var(--nivel, 75%),
+    #354052 var(--nivel, 75%) 100%
+  );
 
-  color: #fff;
-  font-size: 13px;
-  font-weight: 750;
-  text-align: left;
-}
-[data-aroma="dulce"] {
-  --aroma: var(--aroma-dulce);
+  color:var(--aroma-texto, #ffffff);
+  font-size:13px;
+  font-weight:750;
+  line-height:1.2;
+  text-align:left;
 }
 
-[data-aroma="avainillado"] {
-  --aroma: var(--aroma-avainillado);
-  color: #171717;
-}
-
-[data-aroma="ambar"] {
-  --aroma: var(--aroma-ambar);
-}
-
-[data-aroma="calido-especiado"] {
-  --aroma: var(--aroma-calido-especiado);
-}
+/* Paleta completa de acordes aromaticos. */
+.chipMini[data-aroma="dulce"]{ --aroma:#ee363b; }
+.chipMini[data-aroma="atalcado"]{ --aroma:#eeddcc; --aroma-texto:#171717; }
+.chipMini[data-aroma="amaderado"],
+.chipMini[data-aroma="canela"]{ --aroma:#774414; }
+.chipMini[data-aroma="florales"],
+.chipMini[data-aroma="floral"]{ --aroma:#ff5f8d; }
+.chipMini[data-aroma="aromatico"]{ --aroma:#37a089; }
+.chipMini[data-aroma="citrico"]{ --aroma:#f9ff52; --aroma-texto:#171717; }
+.chipMini[data-aroma="fresco-especiado"]{ --aroma:#83c928; --aroma-texto:#171717; }
+.chipMini[data-aroma="animalico"]{ --aroma:#8e4b13; }
+.chipMini[data-aroma="balsamico"]{ --aroma:#ad8359; }
+.chipMini[data-aroma="calido-especiado"]{ --aroma:#cc3300; }
+.chipMini[data-aroma="verde"]{ --aroma:#0e8c1d; }
+.chipMini[data-aroma="fresco"]{ --aroma:#9be5ed; --aroma-texto:#171717; }
+.chipMini[data-aroma="almizclado"],
+.chipMini[data-aroma="almizcle"]{ --aroma:#e7d8ea; --aroma-texto:#171717; }
+.chipMini[data-aroma="afrutados"],
+.chipMini[data-aroma="afrutado"],
+.chipMini[data-aroma="frutal"]{ --aroma:#fc4b29; }
+.chipMini[data-aroma="especiado-suave"]{ --aroma:#e27752; }
+.chipMini[data-aroma="ambar"]{ --aroma:#bc4d10; }
+.chipMini[data-aroma="terrosos"],
+.chipMini[data-aroma="terroso"]{ --aroma:#544838; }
+.chipMini[data-aroma="floral-blanco"]{ --aroma:#edf2fb; --aroma-texto:#171717; }
+.chipMini[data-aroma="avainillado"],
+.chipMini[data-aroma="vainilla"]{ --aroma:#fffec0; --aroma-texto:#171717; }
+.chipMini[data-aroma="rosas"],
+.chipMini[data-aroma="rosa"]{ --aroma:#fe016b; }
+.chipMini[data-aroma="herbal"]{ --aroma:#6ca47f; }
+.chipMini[data-aroma="pachuli"]{ --aroma:#63652e; }
+.chipMini[data-aroma="lactonico"]{ --aroma:#fbf9f2; --aroma-texto:#171717; }
+.chipMini[data-aroma="aldehidico"]{ --aroma:#d8e9f6; --aroma-texto:#171717; }
+.chipMini[data-aroma="acuatico"]{ --aroma:#63cce2; --aroma-texto:#171717; }
+.chipMini[data-aroma="ahumado"]{ --aroma:#827487; }
+.chipMini[data-aroma="cuero"]{ --aroma:#78483a; }
+.chipMini[data-aroma="jabonoso"]{ --aroma:#e3f6fc; --aroma-texto:#171717; }
+.chipMini[data-aroma="violeta"]{ --aroma:#9c1dff; }
+.chipMini[data-aroma="amargo"]{ --aroma:#c0e741; --aroma-texto:#171717; }
+.chipMini[data-aroma="ozonico"]{ --aroma:#c9fdfb; --aroma-texto:#171717; }
+.chipMini[data-aroma="tropical"]{ --aroma:#f6af09; --aroma-texto:#171717; }
 .pList{ margin:0; padding-left: 18px; opacity:.9; }
 .pList li{ margin:6px 0; }
 
