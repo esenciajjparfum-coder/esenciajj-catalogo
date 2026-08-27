@@ -113,7 +113,8 @@
   <div class="toast" id="toast" aria-live="polite" aria-atomic="true"></div>
 
   <!-- MODAL: CATALOGO POR CATEGORIA -->
-  <div class="modal" id="categoryModal" aria-hidden="true">
+  <div class="modal" id="categoryModal" role="dialog" aria-modal="true"
+       aria-labelledby="catTitle" aria-describedby="catDesc" aria-hidden="true">
     <div class="modal__box">
       <div class="modal__top">
         <div>
@@ -130,7 +131,7 @@
           </div>
         </div>
 
-        <button class="btn" id="closeCategoryModal">Cerrar ✕</button>
+        <button class="btn" id="closeCategoryModal" type="button">Cerrar ✕</button>
       </div>
 
       <div class="modal__body">
@@ -143,28 +144,29 @@
   </div>
 
   <!-- MODAL: DETALLE PERFUME -->
-  <div class="modal" id="perfumeModal" aria-hidden="true">
+  <div class="modal" id="perfumeModal" role="dialog" aria-modal="true"
+       aria-labelledby="pTitle" aria-describedby="pFullDesc" aria-hidden="true">
     <div class="modal__box modal__box--narrow">
       <div class="modal__top">
         <div>
           <div class="modal__kicker" id="pCatKicker">Perfume</div>
           <h2 class="modal__title" id="pTitle">Nombre</h2>
-		  <div class="perfBrand" id="pBrand"></div>
+          <div class="perfBrand" id="pBrand"></div>
           <p class="modal__desc" id="pFullDesc"></p>
         </div>
-        <button class="btn" id="closePerfumeModal">Cerrar ✕</button>
+        <button class="btn" id="closePerfumeModal" type="button">Cerrar ✕</button>
       </div>
 
       <div class="modal__body">
         <div class="pLayout">
           <div class="pMedia">
-            <img id="pImg" class="pImg" src="" alt="Perfume">
+            <img id="pImg" class="pImg" alt="">
           </div>
 
           <div class="pInfo">
             <div class="pBlock">
-              <h3>Notas olfativas</h3>
-              <div class="chipsRow" id="pNotes"></div>
+              <h3>Acordes principales</h3>
+              <div class="chipsRow" id="pNotes" aria-label="Acordes principales del perfume"></div>
             </div>
 
             <div class="pBlock">
@@ -175,14 +177,14 @@
             <div class="pBlock">
               <h3>Selecciona presentación</h3>
               <div class="sizeRow" id="sizeRow">
-                <button class="sizeBtn" data-ml="30">30 ml</button>
-                <button class="sizeBtn" data-ml="50">50 ml</button>
-                <button class="sizeBtn" data-ml="100">100 ml</button>
+                <button class="sizeBtn" type="button" data-ml="30">30 ml</button>
+                <button class="sizeBtn" type="button" data-ml="50">50 ml</button>
+                <button class="sizeBtn" type="button" data-ml="100">100 ml</button>
               </div>
 
               <div class="priceRow">
                 <div class="priceTag">Precio: <b id="pPrice">—</b></div>
-                <button class="btn primary" id="addToCartBtn" disabled>Agregar al carrito</button>
+                <button class="btn primary" id="addToCartBtn" type="button" disabled>Agregar al carrito</button>
               </div>
             </div>
 
@@ -193,15 +195,16 @@
   </div>
 
   <!-- MODAL: CARRITO / TIENDA -->
-  <div class="modal" id="cartModal" aria-hidden="true">
+  <div class="modal" id="cartModal" role="dialog" aria-modal="true"
+       aria-labelledby="cartTitle" aria-hidden="true">
     <div class="modal__box modal__box--cart">
       <div class="modal__top">
         <div>
           <div class="modal__kicker">Tienda</div>
-          <h2 class="modal__title">Carrito</h2>
+          <h2 class="modal__title" id="cartTitle">Carrito</h2>
           <p class="modal__desc">Revisa tu pedido, ajusta cantidades y finaliza por WhatsApp.</p>
         </div>
-        <button class="btn" id="closeCartModal">Cerrar ✕</button>
+        <button class="btn" id="closeCartModal" type="button">Cerrar ✕</button>
       </div>
 
       <div class="modal__body">
