@@ -6,7 +6,7 @@ const money = (n) => `$${n.toFixed(2)}`;
 const waLink = (msg) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
 
 // Precios por presentación
-const PRICE_BY_ML = { 30: 10, 50: 16, 100: 20 };
+const PRICE_BY_ML = { 30: 10, 50: 16, 100: 23 };
 
 // Textos por categoría (modal 1)
 const CATEGORY_INFO = {
@@ -27,6 +27,31 @@ const CATEGORY_INFO = {
     desc: "Composiciones modernas y equilibradas para cualquier estilo, con un 99% de similitud con perfumes originales."
   }
 };
+
+// Convierte el nombre visible del aroma en la clave usada por el CSS.
+// Los alias permiten reutilizar los colores de la paleta para nombres similares.
+const AROMA_ALIASES = {
+  vainilla: "avainillado",
+  canela: "amaderado",
+  floral: "florales",
+  afrutado: "afrutados",
+  terroso: "terrosos",
+  almizcle: "almizclado"
+};
+
+function convertirAromaEnId(aroma) {
+  const aromaId = String(aroma || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, "-");
+
+  return AROMA_ALIASES[aromaId] || aromaId;
+}
+
+// La posición de cada nota define la longitud visual de su barra.
+const AROMA_LEVELS = [100, 88, 78, 68, 58];
 
 // =============================
 // DATA (desde perfumes.json)
@@ -254,9 +279,11 @@ function openPerfume(id){
   pImg.alt = p.name;
 
   pNotes.innerHTML = "";
-  (p.notes || []).forEach(n=>{
+  (p.notes || []).forEach((n, index)=>{
     const chip = document.createElement("span");
     chip.className = "chipMini";
+    chip.dataset.aroma = convertirAromaEnId(n);
+    chip.style.setProperty("--nivel", `${AROMA_LEVELS[index] ?? 55}%`);
     chip.textContent = n;
     pNotes.appendChild(chip);
   });
